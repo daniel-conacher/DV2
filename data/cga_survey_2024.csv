@@ -1,0 +1,91 @@
+question,category,responses,percent_reported,from,note
+Responses,Total responses,249,,text,
+Responses,Unique gardens,216,,text,
+Headline,Volunteer hours per year,354000,,text,CGA 2025 Annual Report and results web page say 339000 instead
+Headline,Visitors per year,445000,,text,CGA 2025 Annual Report and results web page say 480000 instead
+Total members,1-10,41,,chart,Read from bar heights; the seven bars sum to 249
+Total members,11-20,48,,chart,
+Total members,21-50,89,,chart,
+Total members,51-100,45,,chart,
+Total members,101-200,19,,chart,
+Total members,201-300,5,,chart,
+Total members,300-500,2,,chart,
+Volunteer hours per week,1-5,47,,chart,Read from bar heights; the seven bars sum to 249
+Volunteer hours per week,6-10,54,,chart,
+Volunteer hours per week,11-20,44,,chart,
+Volunteer hours per week,21-30,41,,chart,
+Volunteer hours per week,31-50,30,,chart,
+Volunteer hours per week,51-100,19,,chart,
+Volunteer hours per week,100+,14,,chart,
+Weekly visits per garden,0-10,68,,chart,Read from bar heights; the six bars sum to 249
+Weekly visits per garden,11-25,93,,chart,
+Weekly visits per garden,26-50,50,,chart,
+Weekly visits per garden,51-100,21,,chart,
+Weekly visits per garden,101-200,9,,chart,
+Weekly visits per garden,200+,8,,chart,Report text says 9 gardens have 200+
+State,NSW,,21.3,text,25.4% in 2023
+State,WA,,16.9,text,14.6% in 2023
+State,NSW and VIC combined,,45.8,text,Other states not broken down
+Land tenure,Council land,,56.2,text,
+Land tenure,State land,,8.8,text,
+Land tenure,Church land,,8,text,
+Land tenure,School land,,6.4,text,
+Land tenure,Leased land,,6,text,
+Land tenure,Licensed or permit based land,,3.6,text,
+Land tenure,Private land,,2.4,text,
+Land tenure,Other,,8.6,text,
+Development stage,Well established,,71.4,text,
+Development stage,Open and active: early days,,19.4,text,
+Development stage,Dormant: awaiting revival,,4.4,text,
+Development stage,Planning stages,,2.8,text,
+Development stage,Under construction,,2,text,
+Plots,Garden divided into plots,,68,text,
+Plots,Plots in use all the time,146,,text,Out of 244 gardens answering
+Plots,Plots not in continual use,20,,text,Out of 244 gardens answering
+Waiting list,Has a waiting list,,20,text,Report says almost 20%
+Waiting list,Applicants waiting under 6 months,,75,text,Of gardens with a waiting list
+Waiting list,Applicants waiting over 12 months,,11,text,
+Infrastructure (multi-select),Shed,,92.2,text,
+Infrastructure (multi-select),Gathering space,,50.6,text,
+Infrastructure (multi-select),Toilet,,42,text,
+Infrastructure (multi-select),Education space,,39,text,
+Infrastructure (multi-select),Kitchen,,32,text,
+Outcomes,Health and wellbeing improved,,85.6,text,Report also says 85.8% on page 9
+Outcomes,Skills to grow food at home improved,,83.7,text,
+Outcomes,Weekly food costs reduced,,69,text,
+Activities (multi-select),Food production for individual gardeners and households,,79.8,text,
+Activities (multi-select),Informal composting and/or worm farming,,77.8,text,
+Activities (multi-select),Workshops and informal training,,69.8,text,
+Activities (multi-select),Visits and tours,,54.4,text,
+Activities (multi-select),Community events,,51.2,text,
+Activities (multi-select),Shared meals in the garden,,48,text,
+Activities (multi-select),Food donations to food banks soup kitchens charities,,31,text,
+Chemical and organic policy,Organic production strongly encouraged,,49.8,text,
+Chemical and organic policy,Use of chemicals discouraged,,16.9,text,
+Chemical and organic policy,Meets formal standards but not certified,,16.1,text,
+Chemical and organic policy,No specific policy,,2.8,text,
+Chemical and organic policy,Certified organic and biodynamic,,0.4,text,
+Chemical and organic policy,Other,,14,text,
+Water conservation (multi-select),Mulching of garden beds,,93,text,
+Water conservation (multi-select),Improving soil to increase water holding capacity,,81.6,text,
+Water conservation (multi-select),Rainwater tanks,,61.1,text,
+Water conservation (multi-select),Wicking beds,,50,text,
+Staffing,Has some paid staff,,15,text,Report says nearly 15%
+Staffing,Of those with staff: one staff member,,78.9,text,
+Staffing,Funding available for staff,,4,text,
+Staffing,Unmet staffing needs,,32.2,text,Same report also says 67%
+Funding model (multi-select),Self-funding activities,,82.3,text,
+Funding model (multi-select),In-kind support,,79.5,text,
+Funding model (multi-select),Government support,,59.4,text,
+Funding model (multi-select),Support from non-government organisations,,57,text,
+Funding,Unmet non-staff funding needs,,60.1,text,
+Funding,Registered charity (ACNC),,16.3,text,
+Funding,DGR tax status,,8.9,text,
+Funding,Would like charitable or DGR status,,84.4,text,
+Management,Independently managed,,56.4,text,
+Management,Managed through council or neighbourhood house or community centre or state program,,22.9,text,
+Management,Affiliated with a church or school,,7.5,text,
+Management,Affiliated with a Men's Shed,,1.8,text,
+Support requested (multi-select),Lobby government to recognise value of gardens,,70.7,text,
+Support requested (multi-select),Networking with other local gardeners,,46.6,text,
+Support requested (multi-select),Advice on sourcing funding,,39.4,text,

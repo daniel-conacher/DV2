@@ -1,0 +1,101 @@
+question,category,responses,base,percent_reported,from,note
+Responses,Total responses,240,,,text,Collected Nov 2023 to May 2024; no demographic questions this year
+Responses,Unique gardens,210,240,,text,
+Headline,Volunteer hours per year,300000,,,text,
+Headline,Visitors per year,315500,,,text,Report says an increase of 15000 on the previous year
+Total members,1-10,44,240,,chart,Measured from chart image; bars sum to 240 and match text totals
+Total members,11-20,47,240,,chart,
+Total members,21-50,82,240,,chart,Also stated in text
+Total members,51-100,45,240,,chart,
+Total members,101-200,19,240,,chart,
+Total members,201-300,3,240,,chart,
+Total members,300-500,0,240,,chart,No bar in chart; text says 22 gardens over 100 which the two bands above account for
+Volunteer hours per week,1-5,54,240,,chart,Measured from chart image; bars sum to 240
+Volunteer hours per week,6-10,48,240,,chart,
+Volunteer hours per week,11-20,49,240,,chart,
+Volunteer hours per week,21-30,37,240,,chart,
+Volunteer hours per week,31-50,23,240,,chart,
+Volunteer hours per week,51-100,20,240,,chart,
+Volunteer hours per week,100+,9,240,,chart,
+Weekly visits per garden,0-10,75,240,31.3,table,
+Weekly visits per garden,11-25,90,240,37.5,table,
+Weekly visits per garden,26-50,46,240,19.2,table,
+Weekly visits per garden,51-100,27,240,11.3,table,
+Weekly visits per garden,101-200,2,240,0.8,table,
+Land tenure,Council land,139,240,57.9,table,
+Land tenure,Church land,24,240,10,table,
+Land tenure,State land,17,240,7.1,table,
+Land tenure,Leased land,14,240,5.8,table,
+Land tenure,School land,13,240,5.4,table,
+Land tenure,Private land,12,240,5,table,
+Land tenure,Licensed or permit based land,6,240,2.5,table,
+Land tenure,Other,15,240,6.3,table,
+Development stage,Well established,184,240,76.6,table,Text says 76.3%
+Development stage,Open and active: early days,40,240,16.7,table,
+Development stage,Under construction,6,240,2.5,table,
+Development stage,Planning stages,6,240,2.5,table,
+Development stage,Dormant: awaiting revival,4,240,1.7,table,
+Plots,Garden divided into plots,,,76,text,
+Plots,Plots in use all the time,,,57.2,text,
+Plots,Plots not in continual use,,,8.9,text,
+Waiting list,Has a waiting list,,,13.8,text,
+Waiting list,No waiting list,,,86.2,text,
+Infrastructure (multi-select),Shed,,,89.8,text,
+Infrastructure (multi-select),Gathering space,,,53.2,text,
+Infrastructure (multi-select),Toilet,,,32.3,text,
+Infrastructure (multi-select),Kitchen,,,28.5,text,
+Outcomes,Health and wellbeing improved,,,83,text,Report says 90% the previous year
+Outcomes,Skills to grow food at home improved,,,89.5,text,Report says 86% the previous year
+Outcomes,Weekly food costs reduced,,,72.1,text,
+Activities (multi-select),Food production for individual gardeners and households,201,237,84.8,table,Base of 237 implied by the percentages
+Activities (multi-select),Informal composting and/or worm farming,188,237,79.3,table,
+Activities (multi-select),Workshops and informal training,150,237,63.3,table,
+Activities (multi-select),Shared meals in the garden,127,237,53.6,table,
+Activities (multi-select),Visits and tours,124,237,52.3,table,
+Activities (multi-select),Food swapping and trading,121,237,51.1,table,
+Activities (multi-select),Community events,114,237,48.1,table,
+Activities (multi-select),Orchards,111,237,46.9,table,
+Activities (multi-select),Allotments,107,237,45.1,table,
+Activities (multi-select),Indigenous foods,99,237,41.8,table,New option this year
+Activities (multi-select),Community groups (playgroups seniors art/craft),90,237,38,table,New option this year
+Activities (multi-select),Food donations to food banks soup kitchens charities,79,237,33.3,table,
+Activities (multi-select),Large-scale composting or green-waste processing,52,237,21.9,table,
+Activities (multi-select),Beekeeping,46,237,19.4,table,
+Activities (multi-select),Food forest,42,237,17.7,table,
+Activities (multi-select),Food for community events,41,237,17.3,table,
+Activities (multi-select),Chickens for eggs,35,237,14.8,table,
+Activities (multi-select),Food grown for cash sales,27,237,11.4,table,
+Activities (multi-select),Aquaculture/aquaponics,11,237,4.6,table,
+Activities (multi-select),Accredited training,4,237,1.7,table,
+Chemical and organic policy,Organic production strongly encouraged,134,240,55.8,table,
+Chemical and organic policy,Use of chemicals discouraged,45,240,18.8,table,Text says 18%
+Chemical and organic policy,Meets formal standards but not certified,33,240,13.7,table,
+Chemical and organic policy,No specific policy,16,240,6.7,table,
+Chemical and organic policy,Certified organic and biodynamic,0,240,0,table,
+Chemical and organic policy,Other,12,240,5,table,
+Water conservation (multi-select),Mulching of garden beds,220,236,93.2,table,Base of 236 implied by the percentages
+Water conservation (multi-select),Improving soil to increase water holding capacity,88,236,36.66,table,Conflict: text says 79.7% and lists it as second most common
+Water conservation (multi-select),Rainwater tanks,143,236,60.6,table,
+Water conservation (multi-select),Wicking beds,132,236,55.9,table,
+Water conservation (multi-select),Drip or seepage watering,107,236,45.3,table,
+Water conservation (multi-select),Stormwater retained on site,21,236,8.9,table,
+Water conservation (multi-select),Greywater use,9,236,3.8,table,
+Staffing,Has some paid staff,,,10,text,Report says 13% the previous year
+Staffing,Funding available for staff,,,3.5,text,Report says 16% the previous year
+Staffing,Unmet staffing needs,,,26.9,text,
+Funding model (multi-select),Self-funding activities,,,78.3,text,
+Funding model (multi-select),In-kind support,,,75.4,text,
+Funding model (multi-select),Government support,,,56.3,text,
+Funding model (multi-select),Support from non-government organisations,,,45,text,
+Funding,Unmet non-staff funding needs,,,69.5,text,
+Funding,Registered charity (ACNC),,,18,text,
+Funding,DGR tax status,,,7.1,text,
+Funding,Would like DGR status,,,92.1,text,
+Management,Self-funded / independently managed,,,53,text,Report says self-funded; the equivalent 2021-22 and 2024 option is independently managed
+Management,Managed through council or neighbourhood house or community centre or state program,,,22.4,text,
+Management,Affiliated with a church or school,,,10.8,text,
+Management,Affiliated with a Men's Shed,,,1.3,text,
+Support requested (multi-select),Lobby government to recognise value of gardens,,,63.3,text,
+Support requested (multi-select),Networking with other local gardeners,,,50,text,
+Support requested (multi-select),Advice on sourcing funding,,,42.1,text,
+Support requested (multi-select),Advocate for community gardens,,,41.3,text,

@@ -1,0 +1,625 @@
+id,garden,garden_type,state,postcode,lat,long,size_m2,year_established,public_access,coord_flag
+1,Kalamunda Community Garden,Community Garden,WA,6076,,,,2013,Open at all times,missing
+2,Gum Tree Community Garden,Community Garden,SA,5250,-35.04641,138.87061,4000,2017,Open at all times,ok
+3,WHISTLESTOP COMMUNITY GARDEN,Community Garden,QLD,4380,-28.65753,151.93791,,2010,Set hours,ok
+4,Mudgee Uniting Community Garden,Community Garden,NSW,2850,-32.59318,149.58705,,2011,Set hours,ok
+5,Community Gardening @ PBNC,Community Garden,NSW,2489,-28.39091,153.56444,,2003,Events and open days,ok
+6,Links Community Garden (Lalor),Community Garden,VIC,3075,-37.66746,145.01698,1550,2017,Open at all times,ok
+7,Glen Forrest Community Garden,Community Garden,WA,6071,,,1000,2013,Open at all times,missing
+8,Yarrabilba Community Garden,Community Garden,QLD,4207,-27.80541,153.10255,400,2015,Open at all times,ok
+9,Wandana Community Garden,Community Garden,WA,6008,-31.94928,115.8338,380,2011,Members only,ok
+10,St Helen's Community Garden,Community Garden,NSW,2037,-33.87801,151.18521,310,2012,Open at all times,ok
+11,Yackandandah Community Garden,Community Garden,VIC,3749,-36.31164,146.84089,500,2014,Open at all times,ok
+12,Wagtail Urban Farm,City Farm,SA,5043,,,180,2013,Set hours,missing
+13,CERES Community Environment Park,City Farm,VIC,3057,,,,1982,Open at all times,missing
+14,Enov8,Unknown,NSW,2000,,,,2013,Open at all times,missing
+15,Park Terrace Community Garden,Community Garden,SA,5007,-34.90589,138.58119,,2016,Open at all times,ok
+16,Camdenville Paddock Community Garden,Community Garden,NSW,2042,-33.90663,151.17516,1500,2012,Events and open days,ok
+81,St Helen's Community Garden,Community Garden,NSW,2037,,,620,2014,Open at all times,missing
+120,Princes Street Primary School,School Garden,TAS,7006,-42.89879,147.31815,,,Open at all times,ok
+17,Yeronga Community Gardens,Community Garden,QLD,4104,-27.29247,153.01758,1011,2015,Set hours,ok
+18,Kingary Community Garden,Community Garden,QLD,4610,,,,2005,Open at all times,missing
+19,Buxton Community Garden,Community Garden,NSW,2571,-34.25538,150.53291,8000,2015,Open at all times,ok
+20,Green Corner - Ashgrove,Community Garden,QLD,4060,-27.4462,152.98899,1000,,Open at all times,ok
+21,Ashburton Community Garden,Community Garden,VIC,3147,-37.871,145.083,,,Members only,ok
+22,Brentwood Secondary College Community Garden,School Garden,VIC,3150,-37.8999,145.168,,,Open at all times,ok
+23,Toolangi Castella and District Community Garden,Community Garden,VIC,3777,-37.5383,145.474,,,Open at all times,ok
+24,Daylesford Community Garden,Community Garden,VIC,3460,-37.3486,144.14366,,,Open at all times,ok
+25,Union St Community Garden,Community Garden,VIC,3181,-37.85343,144.98363,,,Events and open days,ok
+26,Rosebud Community Garden,Community Garden,VIC,3939,-38.36865,144.91917,,,Open at all times,ok
+27,Koo Wee Rup Community Garden,Community Garden,VIC,3981,-38.15334,145.4855,,,Open at all times,ok
+28,Lygon St Community Garden,Community Garden,VIC,3053,-37.79395,144.96903,,2015,Events and open days,ok
+29,Park Towers,Community Garden,VIC,3205,-36.56992,145.46899,,,Events and open days,placeholder
+30,Gronn Place Community Garden,Community Garden,VIC,3057,-37.757,144.939,270,2005,Events and open days,ok
+31,Lennox St Community Garden,Community Garden,VIC,3067,-37.81624,144.99493,,,Events and open days,ok
+32,Wingate Ave Community Garden,Community Garden,VIC,3032,-37.77884,144.91725,,,Events and open days,ok
+33,Inkerman Heights Community Garden,Community Garden,VIC,3182,-37.86475,144.98891,,,Events and open days,ok
+117,Keysborough Learning Centre Commuity Garden,Community Garden,VIC,3173,-37.98991,145.16351,,,Open at all times,ok
+121,Peachey Community Garden,Community Garden,QLD,,-27.78665,153.25221,,,Open at all times,ok
+34,King St Community Garden,Community Garden,VIC,3181,-36.56992,145.46899,,,Events and open days,placeholder
+35,Emerald St Community Garden,Community Garden,VIC,3066,-37.80046,144.98807,,,Events and open days,ok
+36,Crown St Community Garden,Community Garden,VIC,3031,-37.7857,144.023,,,Events and open days,check_location
+37,Neill St Community Garden,Community Garden,VIC,3053,-37.80009,144.96709,,,Events and open days,ok
+38,Holmes St Community Garden,Community Garden,VIC,3070,-37.78258,145.00623,,,Open at all times,ok
+39,Highett St Community Garden,Community Garden,VIC,3121,-37.81598,144.99997,,,Events and open days,ok
+40,Flemington Community Garden,Community Garden,VIC,3031,-37.78573,144.91875,,,Events and open days,ok
+41,Alfred Street Nth Melb,Community Garden,VIC,3051,-37.79096,144.94215,,,Events and open days,ok
+42,253 Hoddle St Collingwood,Community Garden,VIC,3066,-37.8012,145.992,,,Events and open days,check_location
+43,Atherton Gardens,Community Garden,VIC,3065,-37.80422,144.97974,,,Events and open days,ok
+44,Ballarat Community Garden,Community Garden,VIC,3350,-37.5592,143.877,,2004,Open at all times,ok
+45,Buncle St Community Garden,Community Garden,VIC,3051,-37.79526,144.94005,,,Events and open days,ok
+46,229 Hoddle St Collingwood,Community Garden,VIC,3067,-37.802,144.992,,,Events and open days,ok
+47,Brunswick Neighbourhood House Community Garden,Community Garden,VIC,3056,-37.76025,144.96482,,2016,Set hours,ok
+48,Mundoolun Community Garden,Community Garden,QLD,4285,,,4500,2016,Open at all times,missing
+82,WRC Community Garden,Community Garden,NSW,2550,,,,2013,Members only,missing
+178,Shark Bay Community Garden,Community Garden,WA,6537,-25.92254,113.53171,,,Open at all times,check_location
+49,Clovelly Park Community Garden,Community Garden,SA,5042,-34.99825,138.56609,400,2011,Open at all times,ok
+50,Derwent Valley Community House Garden,Community Garden,TAS,7140,-42.78454,147.06616,2000,2012,Open at all times,check_location
+51,Perth City Farm,City Farm,WA,6004,-31.95066,115.87092,1800,1994,Open at all times,ok
+52,The Spire Community Garden,Community Garden,SA,5067,-34.92029,138.6417,160,2014,Open at all times,ok
+53,White Gum Valley Community Orchard,Community Garden,WA,6162,-32.06086,115.76998,1500,2014,Open at all times,ok
+54,Neutral Bay Uniting Community Garden,Community Garden,NSW,2089,,,150,2012,Open at all times,missing
+55,The Secret Garden and Nursery,Community Garden,NSW,2753,-33.60908,150.74993,,1991,Open at all times,ok
+56,Lupton Park Community Garden,Community Garden,QLD,4650,,,,2014,Events and open days,missing
+57,River Heads Community Garden,Community Garden,QLD,4655,,,750,2013,Set hours,missing
+58,River Heads Food Forest Public Demonstration Garden,Community Garden,QLD,4655,,,50,2014,Open at all times,missing
+59,Community Garden Niagara Park,Community Garden,NSW,2250,-33.38324,151.35318,140,2015,Open at all times,ok
+60,Nth Gosford & Wyoming Community Garden,Community Garden,NSW,2250,-33.40966,151.36676,,2013,Set hours,ok
+61,Westminster Community Food Garden,Community Garden,WA,6061,-31.86944,115.83168,,2013,Open at all times,ok
+62,North Arm Cove Community Garden,Community Garden,NSW,2324,,,10000,2012,Open at all times,missing
+63,Mandurah Community Garden,Community Garden,WA,6210,-32.547,115.74747,,,Open at all times,ok
+64,Hamersley Habitat Community Garden Inc.,Community Garden,WA,6022,-31.84631,115.8108,1000,2015,Open at all times,ok
+122,Ormeau community garden,Community Garden,QLD,,-27.77482,153.254,,,Open at all times,ok
+65,Gnarojin Community Garden Inc.,Community Garden,WA,6312,-32.93774,117.18266,3164,2013,Open at all times,ok
+66,Nexus Super Edible Garden,Unknown,VIC,3057,-37.4188,144.97804,,2015,Open at all times,ok
+67,Bentley Community Garden,Community Garden,WA,6102,-32.01055,115.90875,500,2011,Set hours,ok
+68,Toowoomba Community Organic Gardens,Community Garden,QLD,4350,-27.56665,151.94344,2500,1994,Open at all times,ok
+69,ELF Community Garden Orange,Community Garden,NSW,2800,-33.26884,149.11237,500,2005,Open at all times,ok
+70,Portland Community Garden,Community Garden,VIC,3305,,,14500,2013,Open at all times,missing
+71,Portland Community Garden,Community Garden,VIC,3305,,,14500,2013,Open at all times,missing
+72,Baringa Bush Community Garden,Community Garden,NSW,2092,-33.7891,151.24375,370,2013,Open at all times,ok
+73,Vic Conte Community Garden Pemberton,Community Garden,WA,6260,-34.44599,116.03339,400,2011,Open at all times,ok
+74,Earthwise Community,Community Garden,WA,6008,,,600,1996,Open at all times,missing
+75,Duncraig Edible Garden,Community Garden,WA,6023,-31.83568,115.76529,30,2014,Open at all times,ok
+76,Sloan's Cottage Community Garden,Community Garden,WA,6170,-32.25504,115.80319,10000,2014,Set hours,ok
+77,Yandina Community Gardens,Community Garden,QLD,4561,-26.55802,152.9561,3303,2002,Open at all times,ok
+78,Mingara Community Garden,Community Garden,NSW,2262,-33.36143,151.44071,50,2015,Open at all times,ok
+79,Deniliquin Community Garden,Community Garden,NSW,2710,-35.52584,144.95883,,2006,Set hours,ok
+80,Sorrento Connected Garden,Community Garden,VIC,3944,,,20,2016,Open at all times,missing
+83,"Laker Reserve Community Garden, Strathfield",Community Garden,NSW,2132,-33.86968,151.09088,250,2013,Events and open days,ok
+84,Manly Community Gardeners Inc,Community Garden,NSW,2095,,,,2015,Open at all times,missing
+85,Penguin Community Garden,Community Garden,TAS,7316,-41.13144,146.06512,10000,1983,Set hours,ok
+86,Freshwater Community Garden,Community Garden,NSW,2096,-33.78158,151.28372,700,2012,Open at all times,ok
+87,Noosa Community Garden,Community Garden,QLD,4565,,,55,2009,Open at all times,missing
+88,Miranda Community Garden,Community Garden,NSW,2228,-34.03265,151.10052,700,2010,Members only,ok
+89,Highett St Community Garden,Community Garden,WA,,-33.85834,121.87394,,,Open at all times,ok
+90,Okines Community Garden,Community Garden,TAS,7173,-42.84823,147.62733,400,2015,Open at all times,ok
+91,Lakeside Drive Community Garden,Community Garden,NT,0810,-12.38012,130.86865,10000,2008,Open at all times,ok
+92,Darley Community Art Garden,Community Garden,VIC,3340,-37.6627,144.43781,150,2015,Open at all times,ok
+93,Noorat Community Garden,Community Garden,VIC,3265,-38.19104,142.92921,160,2015,Open at all times,ok
+94,Belmont Community Growers,Community Garden,WA,6103,-31.97125,115.9436,200,2017,Open at all times,ok
+95,Roxby Downs Community Garden,Community Garden,SA,5725,-30.55795,136.89845,500,2015,Open at all times,ok
+96,Lake Monger Community Garden Inc,Community Garden,WA,6014,-31.92334,115.82464,750,2015,Open at all times,ok
+97,Harvest Corner - Gray Community Garden,Community Garden,NT,0830,-12.48912,130.9816,2000,2015,Events and open days,ok
+98,Bethania Street Community Garden,Community Garden,QLD,4179,-27.46909,153.1847,758,2015,Open at all times,ok
+99,Kooloora Community Garden,Community Garden,NSW,2036,-33.9741,151.2473,900,2015,Open at all times,ok
+100,Cooma Community Garden,Community Garden,NSW,2630,-36.23795,149.12401,1000,2015,Open at all times,ok
+101,Millicent Green Fingers Community Garden,Community Garden,SA,5280,-37.59133,140.34937,900,2014,Open at all times,ok
+102,Arlington Tce Herb Verge,Verge Garden,SA,5007,-34.90567,138.56088,1,2015,Open at all times,ok
+103,Saxon St Community Garden,Community Garden,VIC,3108,-37.77074,144.96056,220,2015,Open at all times,ok
+104,Lovick Avenue DHS Organic Gardens,Other,VIC,3722,-37.06175,146.08806,360,2015,Open at all times,ok
+105,Mayo Community Garden,Community Garden,WA,6010,-31.97812,115.76152,900,2015,Open at all times,ok
+106,Dromana Community Garden,Community Garden,VIC,3936,,,1400,2015,Open at all times,missing
+107,Trafalgar Community Garden,Community Garden,VIC,3824,-38.2103,146.15503,500,2015,Open at all times,ok
+108,Sustainable Urban Nutrition (SUN) Inc.,Other,WA,6151,-31.98575,115.87341,250,2007,Events and open days,ok
+109,Werribee Community Garden,Community Garden,VIC,3030,-37.89802,144.638,900,2015,Open at all times,ok
+110,The Hills Organic Garden (The HOG),Community Garden,QLD,4054,,,1000,2015,Open at all times,missing
+111,Deloraine Community Garden,Community Garden,TAS,7304,-41.53009,146.6613,50,,Open at all times,ok
+112,Swan View Community Garden,Community Garden,WA,6056,,,289,2015,Open at all times,missing
+113,Rose Bay Community Garden,Community Garden,NSW,2029,-33.8768,151.26464,1217,2015,Events and open days,ok
+114,Blacktown Showground Community Garden,Community Garden,NSW,2148,-33.76636,150.90385,828,2015,Open at all times,ok
+115,Lethbridge Park Community Garden,Community Garden,NSW,2770,,,86,2015,Open at all times,missing
+116,Bungarribee Community Garden,Community Garden,NSW,2767,,,600,2015,Open at all times,missing
+118,Gowrie Community Garden,Community Garden,WA,,-31.96067,115.9343,,,Open at all times,ok
+119,Curtin Student Garden Curtin University of Technology,Community Garden,WA,,-32.01476,115.92781,,,Open at all times,ok
+123,Shara Community Gardens Ocean Shores,Community Garden,NSW,,-28.52476,153.5458,,,Open at all times,ok
+124,Turramurra Lookout Community Garden,Community Garden,NSW,,-33.73343,151.12899,,,Open at all times,ok
+125,Collingwood Childrens Farm,Community Garden,VIC,3067,-37.8027,145.005,,,Open at all times,ok
+126,Morrison Community Garden,Community Garden,VIC,3796,-37.7738,145.383,,,Open at all times,ok
+127,Ballan Community Friendship Garden,Community Garden,VIC,3342,,,900,2015,Open at all times,missing
+128,Mount Molloy State School Community Garden,School Garden,QLD,4871,-16.67439,145.33515,150,2010,Set hours,check_location
+129,Unaderra Community Centre,Community Garden,NSW,2525,-34.45705,150.84215,,,Open at all times,ok
+130,Otford Community Garden,Community Garden,NSW,2526,,,,,Open at all times,missing
+131,Gove Community Garden,Community Garden,NT,0880,-12.18821,136.77486,,2015,Open at all times,ok
+132,George St Community Garden and Nursery,Community Garden,QLD,4551,-26.79773,153.13127,1000,1998,Open at all times,ok
+133,Captains Flat Community Garden,Community Garden,NSW,2623,-35.58756,149.44872,400,2015,Open at all times,ok
+134,Southern River Community Garden,Community Garden,WA,6110,,,4300,2015,Set hours,missing
+135,Ballys Patch,Community Garden,NSW,2519,-34.38672,150.87816,350,2015,Open at all times,ok
+151,Alice Springs Community Garden,Community Garden,NT,0810,-23.69319,133.89622,2000,2011,Set hours,check_location
+136,The Garden of Earthy Treasures,Other,VIC,3414,-36.42858,142.08441,4000,2015,Set hours,ok
+137,Permaculture Interpretive Garden,Other,NSW,2031,-33.93091,151.24739,1000,2010,Open at all times,ok
+138,Barrett House Forager's Garden,Verge Garden,NSW,2031,-33.907,151.24974,30,2010,Open at all times,ok
+139,Armstrong Street Community Garden,Community Garden,QLD,4701,-23.36685,150.52288,2000,2015,Open at all times,ok
+140,Pony Club Community Garden,Community Garden,WA,6721,,,800,2015,Open at all times,missing
+141,Monash Permaculture Garden,Community Garden,VIC,3800,-37.91167,145.13188,150,,Open at all times,ok
+142,Monash University Community Farm,Community Garden,VIC,3168,-37.90783,145.14316,22250,2015,Open at all times,ok
+143,Ballina Community Garden,Community Garden,NSW,2478,-28.86319,153.55396,3900,2015,Open at all times,ok
+144,Mandurah Junction Community Garden,Community Garden,WA,6210,-32.5196,115.74531,,2015,Open at all times,ok
+145,Buddina Community Garden,Community Garden,QLD,4575,-26.70017,153.13278,,2015,Open at all times,ok
+146,Thirroul Gardeners,Community Garden,NSW,2517,-34.31961,150.91494,,,Open at all times,ok
+147,The Popes Complex Garden,Community Garden,NSW,2519,,,,,Open at all times,missing
+148,Coal Loader Community Garden,Community Garden,NSW,2060,-33.84304,151.19461,300,2007,Open at all times,ok
+149,Addison Road Community Garden,Community Garden,NSW,2204,-33.90253,151.16023,1000,2015,Open at all times,ok
+150,Indooroopilly Community Garden,Community Garden,QLD,4068,-27.50208,152.97195,50,2015,Open at all times,ok
+152,Mango Hill Community Farm,Community Garden,QLD,4509,,,130000,2015,Open at all times,missing
+153,Northey Street City Farm,Community Garden,QLD,4030,-27.44261,153.02861,25000,1994,Open at all times,ok
+154,Glovers Garden,Community Garden,NSW,2040,-33.86687,151.15621,700,1985,Events and open days,ok
+155,Mort Bay Community Garden,Community Garden,NSW,2041,-33.85288,151.18327,1330,2011,Open at all times,ok
+156,Cowes Community Garden,Community Garden,VIC,4055,,,600,2015,Open at all times,missing
+157,Sorrell Lane Community garden,Community Garden,NSW,2151,-33.80209,151.00772,400,2015,Open at all times,ok
+158,Mullet Creek Community Garden,Community Garden,NSW,2530,-34.48001,150.79852,,,Open at all times,ok
+159,Koonawarra Community Garden,Community Garden,NSW,2518,-34.50248,150.80989,,,Open at all times,ok
+160,Bellambi Community Garden,Community Garden,NSW,2518,-34.36849,150.91692,,,Open at all times,ok
+161,Access Community Garden,Community Garden,NSW,2527,,,,,Open at all times,missing
+162,Albion Park Community Garden,Community Garden,NSW,7215,-34.57321,150.77296,,,Open at all times,check_location
+163,Coles Bay Community Garden,Community Garden,TAS,3450,,,20,2015,Open at all times,missing
+164,Carpark Kitchen Garden,Community Garden,VIC,2160,,,150,2015,Open at all times,missing
+165,Sansey Avenue Community Garden,Community Garden,NSW,2530,-34.4002,150.88502,,,Open at all times,ok
+166,Yarraville Community Garden,Community Garden,VIC,,-36.56992,145.46899,,,Open at all times,placeholder
+167,Yarraville Baptist Church,Community Garden,VIC,,-37.81618,144.88004,,,Open at all times,ok
+168,Winton Road Food Forest,Community Garden,VIC,3147,-37.86633,145.08728,,,Open at all times,ok
+169,Watsonia Neighbourhood House,Community Garden,VIC,3087,-37.7119,145.078,,,Open at all times,ok
+170,Winchelsea Community Garden,Community Garden,VIC,3241,-38.2442,143.99004,180,2015,Open at all times,ok
+171,Whittlesea Township Community Garden,Community Garden,VIC,3757,-37.51439,145.11731,,,Open at all times,ok
+193,Glyde In Community Centre,Community Garden,WA,,-32.04441,115.75917,,,Open at all times,ok
+172,West Brunswick Community Garden,Community Garden,VIC,3056,-37.7542,144.941,850,1995,Set hours,ok
+173,Wavlink Community Garden,Community Garden,VIC,3150,-37.88198,145.15729,,,Open at all times,ok
+174,Yinnar and District Community Garden,Community Garden,VIC,3869,-38.32706,146.32414,60,2011,Open at all times,ok
+175,Chesterfield Farm Community Garden,Community Garden,VIC,3179,-37.90079,145.21915,,2015,Open at all times,ok
+176,Joondanna Community Food Garden,Community Garden,WA,,-31.90978,115.83459,,,Open at all times,ok
+177,Wyaldreaming,Community Garden,WA,,-31.17801,117.38189,,,Open at all times,ok
+179,Hilton Harvest Community Garden,Community Garden,WA,,-32.06893,115.78537,,,Open at all times,ok
+180,Southwell Community Garden,Community Garden,WA,,-32.08602,115.79126,,,Open at all times,ok
+181,St Ives Community Garden,Community Garden,WA,,-31.94714,115.83599,,,Open at all times,ok
+182,St Lukes Community Garden,Community Garden,WA,,-32.01413,115.76095,,,Open at all times,ok
+183,Victoria Park Community Garden,Community Garden,WA,6100,-31.97709,115.89936,1000,2015,Open at all times,ok
+184,Victoria Park Community Garden Association,Community Garden,WA,,-31.97676,115.89837,,,Open at all times,ok
+185,West Leederville Community Garden,Community Garden,WA,6007,-31.93999,115.83784,1000,2015,Open at all times,ok
+186,West Stirling Neighbourhood House Veggie Patch and Herb Garden,Community Garden,WA,,-31.89393,115.78005,,,Open at all times,ok
+187,Tapping Community Garden,Community Garden,WA,6065,-31.72531,115.80471,,,Open at all times,ok
+188,Ultimo Community Garden,Community Garden,NSW,,-33.88373,151.20203,,,Open at all times,ok
+189,Verdant Vista Community Garden of Ellenbrook,Community Garden,WA,,-31.78507,115.9627,,,Open at all times,ok
+190,The Avenue Neighbourhood House Community Garden,Community Garden,VIC,3130,-37.82272,145.15138,,,Open at all times,shared_point
+191,Karingal Neighbourhood Centre,Community Garden,WA,,-23.20049,117.66664,,,Open at all times,ok
+192,Rockingham Regional Environment Centre - Naragebup,Community Garden,WA,,-32.27843,115.71104,,,Open at all times,ok
+320,Canterbury Community Garden,Community Garden,VIC,3126,-37.825,145.079,,,Open at all times,ok
+194,Healesville Community Garden,Community Garden,VIC,3777,-37.6531,145.514,1000,2015,Open at all times,ok
+195,Melton at Heart Community Garden,Community Garden,VIC,3337,-37.6863,144.57823,400,,Open at all times,ok
+196,Murrumbeena Community Garden,Community Garden,VIC,3163,-37.892,145.065,50,2015,Open at all times,ok
+197,Armadale Community Family Centre,Community Garden,WA,,-32.13112,115.99974,,,Open at all times,ok
+198,Brighton Community Garden Inc.,Community Garden,WA,6036,-31.6425,115.71096,370,2010,Set hours,ok
+199,Brockman Community Garden Brockman Community House,Community Garden,WA,,-31.87147,115.94548,,,Open at all times,ok
+200,Bunbury Community Garden,Community Garden,WA,,-33.3284,115.68217,,,Open at all times,ok
+201,Busselton Community Garden,Community Garden,WA,6280,-33.65981,115.34961,,2007,Open at all times,ok
+202,Crossroads Community Garden,Community Garden,WA,6018,-31.88226,115.78776,1000,2015,Open at all times,ok
+203,Piney Lakes Community Garden,Community Garden,WA,,-32.04617,115.83095,,,Open at all times,ok
+204,Rainbow Coast Neighbourhood Centre Community Garden,Community Garden,WA,6330,-35.0164,117.88009,,,Open at all times,ok
+205,Lockridge Community Garden,Community Garden,WA,6054,-31.88283,115.94999,,,Open at all times,ok
+206,Onslow Community Garden,Community Garden,WA,,-21.63654,115.11184,,,Open at all times,ok
+207,McDougall Farm Community Garden,Community Garden,WA,6152,-32.00813,115.86212,600,2015,Open at all times,ok
+208,Northam Bridgeley Community Garden,Community Garden,WA,6401,-31.65643,116.67087,900,2015,Open at all times,ok
+209,Fremantle Environmental Resource Network (FERN),Community Garden,WA,,-32.05439,115.76598,,,Open at all times,ok
+210,Pines Patch Community Garden,Community Garden,VIC,3200,-38.12276,145.14825,,,Open at all times,ok
+211,PepperTree Place - Kildonan UnitingCare,Community Garden,VIC,3031,-37.76621,144.9622,,,Open at all times,ok
+212,Park Hills Primary,School Garden,VIC,3147,-37.86361,145.10671,,2005,Members only,ok
+213,Padley Park Community Garden,Community Garden,VIC,3021,-37.74343,144.80896,,,Open at all times,ok
+214,Olympic Village School and Community Garden,School Garden,VIC,3081,-37.7411,145.041,,,Open at all times,ok
+215,Ocean Grove Community Garden,Community Garden,VIC,3226,-38.26702,144.52667,680,2015,Open at all times,ok
+216,Notting Hill Neighbourhood House Community Garden,Community Garden,VIC,3168,-37.90636,145.14952,,,Open at all times,ok
+217,Northcote Public Library Community Garden,Community Garden,VIC,3070,-37.7697,145.001,,,Open at all times,ok
+218,Northcote Community Garden,Community Garden,VIC,3070,-37.771,144.994,,,Open at all times,ok
+219,Plenty Valley Community Garden,Community Garden,VIC,3757,-37.51679,145.1142,,,Open at all times,ok
+220,Port Phillip EcoCentre Community Garden,Community Garden,VIC,3182,-37.8699,144.982,,,Open at all times,ok
+221,Warrnambool Community Garden,Community Garden,VIC,3280,-38.38394,142.50278,6000,2015,Open at all times,ok
+222,The Bridge Community Gdn Centre,Community Garden,VIC,3137,-37.8004,145.322,,,Open at all times,ok
+223,The Crib Community Garden,Community Garden,VIC,3919,-38.2431,145.069,,,Open at all times,ok
+224,The Good Seeds Community Garden Group,Community Garden,VIC,,-36.56992,145.46899,,,Open at all times,placeholder
+225,The Poet's Garden,Community Garden,VIC,3184,-37.8799,144.99,,,Open at all times,ok
+226,Thrive Community Garden Inc.,Community Garden,VIC,3089,-37.67314,145.15244,,,Open at all times,ok
+227,Triple G Community Garden,Community Garden,VIC,,-36.56992,145.46899,,,Open at all times,placeholder
+228,Trudewind Neighbourhood House Community Garden,Community Garden,VIC,3690,-36.12989,146.86938,,2015,Open at all times,ok
+229,Tutes Cottage,Community Garden,VIC,3450,-37.05925,144.21813,,,Open at all times,ok
+230,Unnamed as yet,Community Garden,VIC,3950,-38.43602,145.82269,500,2015,Open at all times,ok
+231,Upwey Link Community Kitchen Gdn,Community Garden,VIC,3158,-37.9037,145.331,,,Open at all times,ok
+232,Veg Out St Kilda Community Artist Gardens,Community Garden,VIC,3182,-37.8694,144.97913,,,Open at all times,ok
+233,Urban Reforestation,Community Garden,VIC,3000,-37.81734,144.93803,,,Open at all times,ok
+234,Warrandyte Community Garden,Community Garden,VIC,3113,-37.74746,145.20953,,,Open at all times,ok
+235,Tecoma Community Garden,Community Garden,VIC,3160,-37.9074,145.343,,,Open at all times,ok
+236,Strathmore Community Garden,Community Garden,VIC,,-36.56992,145.46899,,,Open at all times,placeholder
+237,Stawell Community Garden,Community Garden,VIC,3314,-37.31671,142.48408,,,Open at all times,check_location
+238,Ringwood Community Garden,Community Garden,VIC,3152,-37.84252,145.22801,6500,2015,Open at all times,ok
+239,Riversdale Rd Community Garden,Community Garden,VIC,3122,-37.8303,145.052,,,Open at all times,ok
+240,Roxburgh Park Homestead Community Garden,Community Garden,VIC,3064,-37.62325,144.92435,,,Open at all times,ok
+241,Rushall Garden,Community Garden,VIC,,-37.78181,144.98987,,,Open at all times,ok
+242,Seymour Community Garden,Community Garden,VIC,3660,-37.03112,145.1613,,,Open at all times,ok
+243,Shoestring Gardening Community Garden Inc,Community Garden,VIC,3024,-37.90786,144.64913,,,Open at all times,ok
+244,Simply Living Community Garden,Community Garden,VIC,3013,-37.83605,144.94275,50,2015,Open at all times,ok
+245,Sprout Community Garden,Community Garden,VIC,,-36.56992,145.46899,,,Open at all times,placeholder
+246,Span Community House Community Garden,Community Garden,VIC,3071,-37.76201,145.0138,100,2015,Open at all times,ok
+247,South Melbourne Commons,Community Garden,VIC,3205,-37.8359,144.954,,,Open at all times,ok
+248,Slater Reserve Community Gdn,Community Garden,VIC,,-37.82924,145.15708,,,Open at all times,ok
+249,St John's Community Garden,Community Garden,VIC,3130,-37.82272,145.15138,,,Open at all times,shared_point
+250,St Kilda Community Gardens Club,Community Garden,VIC,3183,-37.87206,144.99319,400,1991,Open at all times,ok
+251,Slater Community Garden,Community Garden,VIC,3130,-37.82272,145.15138,,,Open at all times,shared_point
+252,Knox Community Garden,Community Garden,VIC,3155,-37.86617,145.25719,,,Open at all times,ok
+253,Jolimont Road Community Gdn,Community Garden,VIC,3131,-37.84402,145.18025,,,Open at all times,ok
+254,Kyneton Community Garden,Community Garden,VIC,3444,-37.25042,144.45925,600,2015,Open at all times,ok
+255,Kevin Heinz Gdn Centre,Community Garden,VIC,3108,-37.79043,145.1431,,,Open at all times,ok
+256,GJ Gardner Homes Community Garden,Community Garden,VIC,3400,-36.71545,142.19643,,,Open at all times,ok
+257,Kensington Community Garden,Community Garden,VIC,3031,-37.7919,144.92435,,,Open at all times,ok
+258,Joy of the Earth Community Garden,Community Garden,VIC,3199,-38.14443,145.13211,2450,2012,Events and open days,ok
+259,Jindvick Community Garden,Community Garden,VIC,3818,-38.02528,145.86643,,,Open at all times,ok
+260,J.L Murphy's Reserve Community Garden,Community Garden,VIC,,-37.83488,144.92548,,,Open at all times,ok
+261,Bellfield Community Garden,Community Garden,VIC,3081,-37.76682,145.04005,,,Open at all times,ok
+262,Interact-Fairfield Community Garden,Community Garden,VIC,3078,-37.78443,145.0232,,,Open at all times,ok
+263,Hume Indigenous Community Garden,Community Garden,VIC,3049,-37.67605,144.89307,,,Open at all times,ok
+264,Lalor Community Garden,Community Garden,VIC,3075,-37.66714,145.01372,,,Open at all times,ok
+265,North Shepparton Community Garden,Community Garden,VIC,3630,-36.35787,145.39119,,,Open at all times,ok
+266,Mill Park Community Garden,Community Garden,VIC,3082,-37.66417,145.06507,,,Open at all times,ok
+267,Monash University Permaculture Food Garden and Community Farm,Community Garden,VIC,3800,-37.9117,145.132,,,Open at all times,ok
+268,Mordialloc Community Garden,Community Garden,VIC,3194,-37.37989,143.95897,,1981,Open at all times,check_location
+269,Mornington Community Garden,Community Garden,VIC,3931,-38.22803,145.06236,,,Open at all times,ok
+270,Mt Alexander Sustainability Group Community Garden,Community Garden,VIC,3450,-37.0634,144.217,,,Open at all times,ok
+271,Mulberry Gardens,Community Garden,VIC,3046,-37.6997,144.922,,2015,Open at all times,ok
+272,Mulberry Gardens School Garden,School Garden,VIC,3046,-37.70848,144.9305,,,Open at all times,ok
+273,Murrnong Community Garden,Community Garden,VIC,,-37.78925,144.89174,,,Open at all times,ok
+274,Mulgrave Neighbourhood House Community Garden,Community Garden,VIC,3170,-37.9261,145.162,,,Open at all times,ok
+275,Myuna Community Farm,Community Garden,VIC,3177,-37.9877,145.232,,,Open at all times,ok
+276,Newstead Community Garden,Community Garden,VIC,3462,-37.1096,144.062,,,Open at all times,ok
+277,Narre Warrebn North Comunity Garden,Community Garden,VIC,3804,-37.97948,145.31813,40,2015,Open at all times,ok
+278,Noble Park Community Garden,Community Garden,VIC,3174,-37.962,145.174,,,Open at all times,ok
+279,Melon Street,Community Garden,VIC,,-37.78179,144.8595,,,Open at all times,ok
+280,Melbourne University Community Garden,Community Garden,VIC,3010,-37.79616,144.96135,70,2015,Open at all times,ok
+281,Meadows Primary School Educational Gardens,School Garden,VIC,3047,-37.6795,144.913,,,Open at all times,ok
+282,Laverton Community Garden,Community Garden,VIC,3028,-37.8559,144.773,,,Open at all times,ok
+283,Lara Community Arts and Garden Project,Community Garden,VIC,3212,-38.02543,144.46713,,,Open at all times,ok
+284,Long Gully Community Garden,Community Garden,VIC,3550,-36.7469,144.258,,,Open at all times,ok
+285,Luscious Lane Community Garden,Community Garden,VIC,3068,-37.78431,144.99214,160,,Open at all times,ok
+286,Linda Cres Community Garden,Community Garden,VIC,3122,-37.82,145.033,,,Open at all times,ok
+287,Luscombe St. Community Garden,Community Garden,VIC,3056,-37.7667,144.96285,,,Open at all times,ok
+288,Maidstone Community Centre,Community Garden,VIC,,-37.78896,144.869,,,Open at all times,ok
+289,Manifold Heights Community Garden,Community Garden,VIC,3218,-38.13657,144.33402,20,2015,Open at all times,ok
+290,Mary and Basil Organic Community Garden,Community Garden,VIC,3206,-37.84887,144.95454,,,Open at all times,ok
+291,Mater St Community Garden,Community Garden,VIC,3066,-37.79567,144.98817,,,Open at all times,ok
+292,Mansfield Community Garden,Community Garden,VIC,3724,-37.06205,146.0871,,,Open at all times,ok
+293,Maribyrnong Community Garden,Community Garden,VIC,3032,-37.76894,144.89416,625,2015,Open at all times,ok
+294,Manna Community Garden,Community Garden,VIC,3960,-38.83648,146.40466,,,Open at all times,ok
+295,Lang Lang Community Garden,Community Garden,VIC,3984,-38.31946,145.55533,,,Open at all times,ok
+296,Friends of Royal Park,Community Garden,VIC,,-36.56992,145.46899,,,Open at all times,placeholder
+297,Geelong West Community Garden,Community Garden,VIC,3218,-38.14261,144.34391,500,1985,Open at all times,ok
+298,Forster Community Garden,Community Garden,NSW,2428,-32.18002,152.50038,,,Open at all times,ok
+319,East Keilor Sustainability St Community Garden,Community Garden,VIC,3033,-37.7309,144.863,,,Open at all times,ok
+321,CERES Community Garden,Community Garden,VIC,3056,-37.7666,144.985,,,Open at all times,ok
+299,Felltimber Community Garden,Community Garden,VIC,3690,-36.12577,146.8629,400,2015,Open at all times,ok
+300,Federation Food Garden,Community Garden,VIC,3177,-37.99772,145.24455,,,Open at all times,ok
+301,Farnham St Community Garden,Community Garden,VIC,3031,-37.78246,144.9288,,,Open at all times,ok
+302,Eumemmering Federation Food Garden,Community Garden,VIC,3177,-37.98466,145.24049,,,Open at all times,ok
+303,Essendon Community Garden,Community Garden,VIC,3040,-37.74923,144.91226,,,Open at all times,ok
+304,Fairfield Community Garden,Community Garden,VIC,3078,-37.779,145.023,,,Set hours,ok
+305,Goonwarra Commumunity Garden,Community Garden,VIC,3429,-37.57262,144.75842,,,Open at all times,ok
+306,Hills Community Garden,Community Garden,VIC,3781,-37.93732,145.49044,,2006,Open at all times,ok
+307,Heidelberg West Community Garden,Community Garden,VIC,3081,-37.7398,145.041,,,Open at all times,ok
+308,Hawthorn (Camberwell Junction) Community Gardens Inc. (Riversdale Rd),Community Garden,VIC,3123,-37.83198,145.04982,,,Open at all times,ok
+309,Hampton Park Community Garden,Community Garden,VIC,3976,-38.0418,145.265,,,Open at all times,ok
+310,Grovedale Community Garden,Community Garden,VIC,3216,-38.22729,144.29956,,,Open at all times,ok
+311,Groundswell Community Garden,Community Garden,VIC,3199,-38.15451,145.12177,1140,2015,Open at all times,ok
+312,Hawthorn Community Gardens Inc. (Linda Cres),Community Garden,VIC,3122,-37.82864,145.03062,,,Open at all times,ok
+313,Grinter Community Garden,Community Garden,VIC,3219,-38.18008,144.40347,1860,2012,Open at all times,ok
+314,Hope... it Grows! Community Garden,Community Garden,VIC,3550,-36.7473,144.258,,,Open at all times,ok
+315,Graylings Grove Community Garden,Community Garden,VIC,3183,-37.86258,144.99294,,,Open at all times,ok
+316,Gravel Hill Gardens,Community Garden,VIC,3550,-36.75958,144.28734,6000,2015,Open at all times,ok
+317,Edendale Community Environment Farm,Community Garden,VIC,3095,-37.70122,145.15401,,2000,Open at all times,ok
+318,ECOSS Community Garden,Community Garden,VIC,3799,-37.7772,145.648,,,Open at all times,ok
+322,Chirnside Park Community Kitchen Garden,Community Garden,VIC,3116,-37.7571,145.313,,,Open at all times,ok
+323,Craigieburn Community Garden,Community Garden,VIC,3064,-37.59291,144.90466,,,Open at all times,ok
+324,Croydon Community Garden,Community Garden,VIC,3136,-37.8024,145.302,,,Open at all times,ok
+325,Danawa Community Garden,Community Garden,VIC,3228,-38.33107,144.30902,,,Open at all times,ok
+326,Dandenong Neighbourhood House Community Garden,Community Garden,VIC,3175,-37.9836,145.219,,,Open at all times,ok
+327,Darley Community Arts Garden,Community Garden,VIC,3340,-37.72228,144.40047,,,Open at all times,ok
+328,Daylesford Rea Lands Park Community Orchard and Herb Bank,Community Garden,VIC,3460,-37.33992,144.13728,,,Open at all times,shared_point
+329,Doncaster Community Garden,Community Garden,VIC,3108,-37.7931,145.139,,,Open at all times,ok
+330,Docklands Community Garden,Community Garden,VIC,3000,-37.81812,144.93803,,,Open at all times,ok
+331,Dixon House Community Garden,Community Garden,VIC,3775,-37.9192,145.122,,,Open at all times,ok
+332,Dig It Community Garden,Community Garden,VIC,3391,-38.2335,145.032,,,Open at all times,check_location
+333,Daylesford Skate Park Food Garden,Community Garden,VIC,3460,-37.33992,144.13728,,,Open at all times,shared_point
+334,Daylesford Secondary College Food Forest,Community Garden,VIC,3460,-37.33992,144.13728,,,Open at all times,shared_point
+335,Peregrine School and Community Garden,School Garden,TAS,,-43.10673,147.22905,,,Open at all times,ok
+336,Punchbowl Community Garden,Community Garden,TAS,,-41.43709,147.13938,,,Open at all times,shared_point
+337,Ravenswood Community Garden,Community Garden,TAS,,-41.43709,147.13938,,,Open at all times,shared_point
+338,Rocherlea Peace Garden,Community Garden,TAS,,-41.37469,147.13097,,,Open at all times,ok
+339,St Helens Community Garden,Community Garden,TAS,,-41.3226,148.24964,,,Open at all times,ok
+340,St Marys Community Garden,Community Garden,TAS,,-41.58886,148.19251,,,Open at all times,ok
+341,Swanston Street  Community Garden,Community Garden,TAS,,-42.85756,147.30865,,,Open at all times,ok
+342,Taroona Neighbourhood Garden,Community Garden,TAS,7053,-42.94933,147.35174,1000,2007,Open at all times,ok
+343,Trevallyn Community garden,Community Garden,TAS,7250,-41.43541,147.11911,,,Open at all times,ok
+344,Oatlands Parterre,Community Garden,TAS,,-42.29842,147.37611,,,Open at all times,ok
+345,Oatlands Community Health Centre Garden,Community Garden,TAS,,-42.29777,147.36883,,,Open at all times,ok
+346,Dunalley Neighbourhood Garden,Community Garden,TAS,,-42.88249,147.81648,,,Open at all times,ok
+347,East Devonport Unit Gardens,Community Garden,TAS,,-41.17643,146.37437,,,Open at all times,ok
+348,Exeter Community Garden,Community Garden,TAS,,-41.30044,146.95418,,,Open at all times,ok
+349,Fern Tree Comm Garden,Community Garden,TAS,,-42.94687,147.27087,,,Open at all times,ok
+350,Flinders Island Community Garden,Community Garden,TAS,,-40.11169,148.03516,,,Open at all times,ok
+351,Goodwood Community Garden,Community Garden,TAS,,-42.82883,147.28928,,,Open at all times,ok
+352,Hobart Royal Botanic Gardens Community Garden,Community Garden,TAS,,-42.8819,147.32381,,,Open at all times,ok
+353,King Island Community Garden,Community Garden,TAS,7256,-39.93025,143.85565,100,2015,Open at all times,ok
+354,Lenah Links Community Garden,Community Garden,TAS,,-42.87134,147.29359,,,Open at all times,ok
+355,Ulverstone Community Garden,Community Garden,TAS,,-41.14776,146.16117,,,Open at all times,ok
+356,Warrane Community Garden,Community Garden,TAS,,-42.85603,147.38329,,,Open at all times,ok
+357,Avondale Heights Community Garden,Community Garden,VIC,3034,-37.74413,144.81479,,,Open at all times,ok
+358,Balwyn Community Centre,Community Garden,VIC,3127,-37.81377,145.08916,,1995,Open at all times,ok
+359,Barwon Heads Community Arts Garden,Community Garden,VIC,3227,-38.27449,144.48869,2275,2015,Open at all times,ok
+360,Bayswater North Community Garden,Community Garden,VIC,3153,-37.8348,145.274,,,Open at all times,ok
+361,Bellarine Community Garden,Community Garden,VIC,3225,-38.24429,144.63724,,,Open at all times,ok
+362,Birdsland Community Garden,Community Garden,VIC,3160,-37.9237,145.337,,,Open at all times,ok
+363,Botanic Gardens,Community Garden,VIC,3182,-37.8703,144.984,,,Open at all times,ok
+364,Broadford Community Garden,Community Garden,VIC,3658,-37.2151,145.05619,,,Open at all times,ok
+365,Buna Reserve Community Garden,Community Garden,VIC,3081,-37.74267,145.04573,,,Open at all times,ok
+366,Ashwood College Permaculture Food Garden,Community Garden,VIC,3147,-37.86559,145.10389,2370,2015,Open at all times,ok
+367,Ararat Community Garden,Community Garden,VIC,3377,-37.27752,142.9313,60,2015,Open at all times,ok
+368,Waterworks Road Community Garden,Community Garden,TAS,,-42.90286,147.30633,,,Open at all times,ok
+369,West Moonah Neighbourhood Garden,Community Garden,TAS,,-42.84938,147.28081,,,Open at all times,ok
+370,Westbury Community Garden,Community Garden,TAS,,-41.36504,146.62849,,,Open at all times,ok
+371,Wynyard Community Garden,Community Garden,TAS,,-40.98598,145.72064,,,Open at all times,ok
+372,Aboriginal and Torres Strait Islander Centre for Males,Community Garden,VIC,3072,-37.74166,145.00911,,,Open at all times,ok
+373,Aireys Inlet Community Garden,Community Garden,VIC,3231,-38.45286,144.06972,,,Open at all times,ok
+374,Alamein Community Garden,Community Garden,VIC,3147,-37.86848,145.08629,3750,,Open at all times,ok
+375,Amaroo Neighbourhood Centre Community Garden,Community Garden,VIC,3148,-37.8791,145.099,,,Open at all times,ok
+376,Anglesea Community Garden - Incredible Edibles,Community Garden,VIC,3230,-38.4102,144.18388,1250,2015,Open at all times,ok
+377,Montello Primary School,School Garden,TAS,,-41.05834,145.89902,,,Open at all times,ok
+378,Moonah Primary School,School Garden,TAS,,-42.83909,147.29327,,,Open at all times,ok
+379,Mt Faulkner Community Garden Chigwell,Community Garden,TAS,7011,-42.80469,147.24293,,,Open at all times,ok
+380,New Norfolk,Community Garden,TAS,,-42.77916,147.06653,,,Open at all times,ok
+381,New Town Primary,School Garden,TAS,,-42.85666,147.30228,,,Open at all times,ok
+382,Oatlands School,School Garden,TAS,,-42.29815,147.36916,,,Open at all times,ok
+383,Punchbowl Primary School,School Garden,TAS,,-41.44479,147.16292,,,Open at all times,ok
+384,Redpa Primary School,School Garden,TAS,,-40.93346,144.76045,,,Open at all times,ok
+385,Refugee Hostel Allotments,Community Garden,TAS,,-42.81412,147.24081,,,Open at all times,ok
+386,Ringarooma School Garden,School Garden,TAS,,-41.24299,147.73312,,,Open at all times,ok
+387,Riverside Community Garden and Nursery,Community Garden,TAS,,-42.73817,147.24298,,,Open at all times,ok
+388,Lauderdale Primary School,School Garden,TAS,,-42.90333,147.47574,,,Open at all times,ok
+389,Lansdowne Crescent Primary School,School Garden,TAS,7000,-42.88218,147.30862,,2000,Open at all times,ok
+390,Glenorchy Primary School,School Garden,TAS,,-42.83179,147.27,,,Open at all times,ok
+391,Grow It Westbury Community Garden,Community Garden,TAS,7303,-41.53168,146.83684,2500,2015,Open at all times,ok
+392,Herdsman's Cove Primary School,School Garden,TAS,,-42.74858,147.26759,,,Open at all times,ok
+393,Huonville Community Garden,Community Garden,TAS,,-43.03043,147.0544,,,Open at all times,shared_point
+394,Huonville High School Garden,School Garden,TAS,,-43.03043,147.0544,,,Open at all times,shared_point
+395,Hutchins School,School Garden,TAS,,-42.90588,147.32924,,,Open at all times,ok
+396,Illawarra Primary School,School Garden,TAS,,-43.00712,147.31815,,,Open at all times,ok
+397,King Island School,School Garden,TAS,,-39.87197,143.99153,,,Open at all times,ok
+398,Kingston High School,School Garden,TAS,,-42.97561,147.30936,,,Open at all times,ok
+399,Kingston Primary School,School Garden,TAS,,-42.97755,147.31021,,,Open at all times,ok
+400,Glen Huon Primary School,School Garden,TAS,,-43.02753,146.96243,,,Open at all times,ok
+401,Riverside High School,School Garden,TAS,,-41.39863,147.08533,,,Open at all times,ok
+402,Rosebery Community Garden,Community Garden,TAS,,-41.78631,145.53343,,,Open at all times,ok
+403,Woodbridge School,School Garden,TAS,,-43.16001,147.23881,,,Open at all times,ok
+404,Youngtown Primary,School Garden,TAS,,-41.48059,147.16637,,,Open at all times,ok
+405,Chigwell Community Garden,Community Garden,TAS,,-42.80819,147.24463,,,Open at all times,ok
+406,Circular Head Community Garden,Community Garden,TAS,,-40.83947,145.12341,,,Open at all times,ok
+407,Clarence Community Garden,Community Garden,TAS,,-42.87657,147.39,,,Open at all times,ok
+408,Cosgrove High School and Community Garden,School Garden,TAS,,-42.83324,147.27713,,,Open at all times,ok
+409,Creek Road Community Garden,Community Garden,TAS,,-42.85533,147.29405,,,Open at all times,ok
+410,Cygnet Community Garden,Community Garden,TAS,7112,-43.16232,147.08058,1000,2001,Open at all times,ok
+576,Ashfield Eora Community Garden,Community Garden,NSW,,-33.89161,151.13564,,,Open at all times,ok
+411,Devonport Community Garden,Community Garden,TAS,,-41.19001,146.34767,,,Open at all times,ok
+412,Okines Community Gardens,Community Garden,TAS,7173,-42.849,147.6231,1000,2015,Open at all times,ok
+413,Ulverstone High School,School Garden,TAS,,-41.16124,146.17058,,,Open at all times,ok
+414,Timsbury Special School Garden,School Garden,TAS,,-42.83368,147.2953,,,Open at all times,ok
+415,Tasman District High,School Garden,TAS,,-43.10455,147.74316,,,Open at all times,ok
+416,Rosebery School Nursery,School Garden,TAS,,-41.77932,145.54143,,,Open at all times,ok
+417,Rosetta High School,School Garden,TAS,,-42.86302,147.31541,,,Open at all times,ok
+418,Sandy Bay Infant School Garden,School Garden,TAS,,-42.90124,147.33279,,,Open at all times,ok
+419,Sassafras Primary School,School Garden,TAS,,-41.28616,146.49857,,,Open at all times,ok
+420,Scottsdale High,School Garden,TAS,,-41.15832,147.50694,,,Open at all times,ok
+421,Scottsdale Primary School,School Garden,TAS,,-41.16176,147.50742,,,Open at all times,ok
+422,South Arm Primary School,School Garden,TAS,,-43.02652,147.41942,,,Open at all times,ok
+423,St Brigids Primary School,School Garden,TAS,,-41.04081,145.8288,,,Open at all times,ok
+424,Taroona Primary School Garden,School Garden,TAS,,-42.94457,147.35294,,,Open at all times,ok
+425,St Leonards Primary School,School Garden,TAS,,-41.45909,147.2012,,,Open at all times,ok
+426,Lochiel Park Community Garden,Community Garden,SA,,-34.87845,138.66317,,,Open at all times,ok
+427,Kurruru Pingyarendi Community Garden,Community Garden,SA,,-34.86387,138.64668,,,Open at all times,ok
+428,Kapunda Dommunity Garden,Community Garden,SA,,-34.34109,138.9152,,,Open at all times,ok
+429,Henley Community Garden,Community Garden,SA,5022,-34.91861,138.49777,750,2015,Open at all times,ok
+430,Milang Community Garden,Community Garden,SA,,-35.4047,138.96866,,,Open at all times,ok
+431,Murray Brodge Community Garden,Community Garden,SA,,-35.12851,139.28184,,,Open at all times,ok
+432,Naracoorte Community Garden,Community Garden,SA,,-36.94601,140.7272,,,Open at all times,ok
+433,Noarlunga Downs,Community Garden,SA,,-35.15125,138.49649,,,Open at all times,ok
+434,Port Pirie Community Garden,Community Garden,SA,,-33.19538,137.9917,,,Open at all times,ok
+435,Seaford Ecumenical Community Garden,Community Garden,SA,,-35.18975,138.47724,,,Open at all times,ok
+436,St Bede's Community Garden,Community Garden,SA,,-34.83971,138.48403,,,Open at all times,ok
+437,Hackham West Community Garden,Community Garden,SA,,-35.13764,138.51171,,,Open at all times,ok
+438,Hackham South School Community Garden,School Garden,SA,,-35.15668,138.52063,,,Open at all times,ok
+439,Glandore Community Garden,Community Garden,SA,,-34.9631,138.56719,,,Open at all times,ok
+440,Aldinga Community Garden,Community Garden,SA,,-35.27893,138.46076,,,Open at all times,ok
+441,Anglicare SA Community Garden,Community Garden,SA,,-34.71575,138.66839,,,Open at all times,ok
+442,Banksia Park Community Garden,Community Garden,SA,,-34.80778,138.72419,,,Open at all times,ok
+443,Box Factory Community Garden,Community Garden,SA,,-34.93175,138.60849,,,Open at all times,ok
+444,Cittasolw Goolwa Community Garden,Community Garden,SA,,-35.50198,138.7831,,,Open at all times,ok
+445,Clayton Bay Community Association Garden,Community Garden,SA,,-35.49073,138.92275,,,Open at all times,ok
+446,Duck Flat Community Garden,Community Garden,SA,,-35.08848,138.87358,,,Open at all times,ok
+447,Fern Avenue Community Garden,Community Garden,SA,5063,-34.95614,138.61762,,2000,Set hours,ok
+448,Flinders University Community Permaculture Garden,Community Garden,SA,,-35.02181,138.56506,,,Open at all times,ok
+449,Gawler Community House,Community Garden,SA,,-34.59954,138.74914,,,Open at all times,ok
+450,Elizabeth House Community Garden,Community Garden,SA,,-35.13423,138.50316,,,Open at all times,ok
+451,St. Andrew's Hospital Garden,Community Garden,SA,,-34.9349,138.61494,,,Open at all times,ok
+452,Brooklyn Primary School,School Garden,TAS,,-41.07323,145.90558,,,Open at all times,ok
+453,Bruny Island District School,School Garden,TAS,,-43.31741,147.24545,,,Open at all times,ok
+454,Calvin Christian School,School Garden,TAS,,-42.98011,147.30499,,,Open at all times,ok
+455,Geeveston School,School Garden,TAS,,-43.16386,146.92892,,,Open at all times,ok
+456,Claremont College Garden,School Garden,TAS,,-42.79604,147.24996,,,Open at all times,ok
+457,Collinsvale Primary School,School Garden,TAS,,-42.83813,147.19844,,,Open at all times,ok
+458,Cottage School,School Garden,TAS,,-42.86629,147.36938,,,Open at all times,ok
+459,Dunalley School,School Garden,TAS,,-42.88932,147.80749,,,Open at all times,ok
+460,Evandale Primary School,School Garden,TAS,,-41.5597,147.3094,,,Open at all times,ok
+461,Executive Rooftop Garden,Community Garden,TAS,,-42.88455,147.32985,,,Open at all times,ok
+462,Flinders Island School,School Garden,TAS,,-40.11259,148.03528,,,Open at all times,ok
+463,Bridport PrimarySchool,School Garden,TAS,,-41.00388,147.39021,,,Open at all times,ok
+464,Bellerive Primary School,School Garden,TAS,,-42.87435,147.37193,,,Open at all times,ok
+465,St. Mary's Picket Fence Community Garden,Community Garden,SA,,-34.99658,138.57665,,,Open at all times,ok
+466,The Gathering Place Community College,Community Garden,SA,,-34.86602,138.59356,,,Open at all times,ok
+467,The Goody Patch Community Garden,Community Garden,SA,,-34.95223,138.58843,,,Open at all times,ok
+468,The Old Mount Gambier Gaol Community Garden,Community Garden,SA,,-37.83165,140.77497,,,Open at all times,ok
+469,Urban Connection,Community Garden,SA,,-35.13843,138.51761,,,Open at all times,ok
+470,Victor Harbor Community Garden,Community Garden,SA,,-35.54324,138.60845,,,Open at all times,ok
+471,Wakefield House Community Garden,Community Garden,SA,,-35.11103,138.5173,,,Open at all times,ok
+472,Wallaroo Community Garden,Community Garden,SA,,-33.92802,137.63723,,,Open at all times,ok
+473,Williamstown Community Garden,Community Garden,SA,,-34.66974,138.89108,,,Open at all times,ok
+474,Wynn Vale Community Garden,Community Garden,SA,,-34.80116,138.70119,,,Open at all times,ok
+475,Acton Primary School,School Garden,TAS,,-41.07256,145.8877,,,Open at all times,ok
+476,Jingili Community Garden,Community Garden,NT,0810,-12.39017,130.87169,,,Open at all times,ok
+477,Snake Bean Community Garden,Community Garden,NT,0810,-12.45448,130.83645,,,Open at all times,ok
+478,Bagot Community Garden,Community Garden,NT,,-12.42265,130.85624,,,Open at all times,ok
+479,The Patch,Community Garden,NT,,-12.37748,130.89195,,,Open at all times,ok
+480,The Mulch Pit Community Food Garden,Community Garden,NT,0820,-12.38517,130.85781,,,Open at all times,ok
+481,Abbeville Street Community Garden,Community Garden,QLD,4122,-27.545,153.09007,435,2015,Open at all times,ok
+482,Beechmont Community Garden,Community Garden,QLD,4211,-28.07801,153.22694,,,Open at all times,ok
+483,Echoesinthevalley,Community Garden,QLD,4343,-27.69024,152.27632,640000,2015,Open at all times,ok
+484,Graceville Community Garden,Community Garden,QLD,4075,-27.51983,152.98436,600,2015,Open at all times,ok
+485,Jimboomba CommUNITY Garden,Community Garden,QLD,4280,-27.82161,153.02817,3200,2015,Open at all times,ok
+486,Labrador Community Gardens,Community Garden,QLD,,-27.93632,153.39002,,,Open at all times,ok
+487,Humpty Doo Community Garden,Community Garden,NT,0836,-12.57911,131.10226,900,2015,Open at all times,ok
+488,Windsor Street Edible Garden,Community Garden,NSW,2021,-33.88631,151.23537,35,2015,Open at all times,ok
+489,Willoughby Community Garden,Community Garden,NSW,,-33.81045,151.20843,,,Open at all times,ok
+490,Shoalhaven Permaculture Community Garden,Community Garden,NSW,2541,-34.85979,150.56853,,2015,Open at all times,ok
+491,Solander Community Garden,Community Garden,NSW,,-33.89681,151.20275,,,Open at all times,shared_point
+492,The Garden,Community Garden,NSW,,-34.41067,150.89312,,,Open at all times,ok
+493,The Gathering Place,Community Garden,NSW,,-33.90486,150.88164,,,Open at all times,ok
+494,The Living Garden,Community Garden,NSW,,-33.92002,150.92413,,,Open at all times,ok
+495,The Luncheon Club Eden Garden,Community Garden,NSW,,-33.89712,151.20457,,,Open at all times,ok
+496,Warners Bay Community Garden,Community Garden,NSW,2282,-32.9856,151.64419,,,Open at all times,ok
+497,Waverley Community Garden,Community Garden,NSW,,-33.89279,151.24722,,,Open at all times,ok
+498,West Pymble Community Garden,Community Garden,NSW,,-33.76136,151.12853,,,Open at all times,ok
+536,Dunbier Park Community Garden,Community Garden,NSW,,-33.92861,150.92137,,,Open at all times,ok
+499,Whites Creek Community Garden,Community Garden,NSW,,-33.87862,151.16756,,,Open at all times,ok
+500,Sandhills Community Garden,Community Garden,NSW,,-32.92777,151.78733,,,Open at all times,ok
+501,Oaklands Street Community Garden,Community Garden,QLD,4161,-27.52442,153.21834,,2005,Open at all times,ok
+502,Veggie Village Community Garden,Community Garden,QLD,,-26.48139,153.09543,,,Open at all times,shared_point
+503,Green Street Community Gardens,Community Garden,SA,,-34.89818,138.57561,,,Open at all times,ok
+504,Kibby Reserver Community Garden,Community Garden,SA,5044,-34.96875,138.52132,600,2015,Open at all times,ok
+505,Linde Community Garden of the Norwood Payneham and St. Peters Community Garden Association,Community Garden,SA,5069,-34.90873,138.62856,,2015,Open at all times,ok
+506,Maslin Beach Community Garden,Community Garden,SA,5170,-35.22559,138.47964,8,2015,Open at all times,ok
+507,Port Lincoln Aboriginal Community Garden,Community Garden,SA,5606,-34.73269,135.87295,,,Open at all times,check_location
+508,Secateurs Community Gardening Group Inc,Community Garden,SA,5000,-34.93548,138.6023,,2015,Open at all times,shared_point
+509,The Old School Community Garden,Community Garden,SA,5152,-34.99902,138.73167,,,Open at all times,ok
+510,Walyo Yerta Community Garden,Community Garden,SA,5000,-34.93548,138.6023,50,2015,Open at all times,shared_point
+511,Warooka Community Garden,Community Garden,SA,5577,-34.98874,137.40103,,2015,Open at all times,ok
+512,Aberfoyle Community Garden,Community Garden,SA,,-35.06559,138.5999,,,Open at all times,ok
+513,Varsity Vegies Community Garden,Community Garden,QLD,,-28.09726,153.41986,,,Open at all times,ok
+514,Southern Beaches Community Garden,Community Garden,QLD,,-28.14983,153.49831,,,Open at all times,ok
+515,Ray Grace Permaculture Park,Community Garden,QLD,4554,-26.66707,152.93352,18000,2015,Open at all times,ok
+516,Russell Island Community Garden,Community Garden,QLD,4184,-27.65098,153.38078,500,2015,Open at all times,ok
+590,Dickson Community Garden,Community Garden,ACT,,-35.25092,149.13979,,,Open at all times,ok
+517,Sunshine Edible Garden and Learning Hub,Community Garden,QLD,4816,-20.18001,144.32745,200,1991,Open at all times,check_location
+575,Koonawarra Community Centre,Community Garden,NSW,,-34.50213,150.80807,,,Open at all times,ok
+518,Vera Street Community Garden,Community Garden,QLD,4066,-27.48521,152.9809,,2015,Open at all times,ok
+519,Coombabah Community Garden,Community Garden,QLD,,-27.89998,153.3862,,,Open at all times,ok
+520,Goombungee and Rosalie District Community Gardens,Community Garden,QLD,,-27.30497,151.85228,,,Open at all times,ok
+521,Gympie Community Garden,Community Garden,QLD,,-26.48139,153.09543,,,Open at all times,shared_point
+522,Joan Park Community Garden,Community Garden,QLD,,-27.97704,153.40784,,,Open at all times,ok
+523,Loders Creek Community Garden,Community Garden,QLD,4215,-27.96627,153.39852,1800,2011,Open at all times,ok
+524,Nerang Community Garden,Community Garden,QLD,4211,-27.96914,153.39712,,,Open at all times,ok
+525,Off The Plot in Townsville,Community Garden,QLD,4810,-19.27907,146.82153,,2015,Open at all times,ok
+526,Woy Woy Peninsula Community Garden,Community Garden,NSW,2256,-33.49609,151.31712,1600,2015,Open at all times,ok
+527,Woolloomooloo Community Garden,Community Garden,NSW,2011,-33.86954,151.22157,600,2015,Open at all times,ok
+528,Villawood Community Garden,Community Garden,NSW,2163,-33.88559,150.97771,,2015,Open at all times,ok
+529,Ulladulla Region Kioloa Community Garden,Community Garden,NSW,,-35.55126,150.37499,,,Open at all times,ok
+530,Alexandria Park Community Garden,Community Garden,NSW,,-33.90188,151.20001,,,Open at all times,ok
+531,Bundeena Community Garden,Community Garden,NSW,,-34.0868,151.15268,,,Open at all times,ok
+532,Carss Park,Community Garden,NSW,,-33.98644,151.11909,,,Open at all times,ok
+533,Charlies Garden,Community Garden,NSW,,-33.89172,151.194,,,Open at all times,ok
+534,Greg Hewish Community Garden,Community Garden,NSW,,-33.89251,151.20172,,,Open at all times,shared_point
+535,City Farm,Community Garden,NSW,,-32.9267,151.77889,,,Open at all times,ok
+537,Tulimbar Village Community Garden,Community Garden,NSW,2527,-34.57415,150.75559,,,Open at all times,ok
+538,Tighes Hill Community Garden,Community Garden,NSW,2297,-32.90559,151.7565,450,2015,Open at all times,ok
+539,The Laneway Park,Community Garden,NSW,2289,-32.93838,151.71477,10,2015,Open at all times,ok
+540,Mullumbimby Community Garden,Community Garden,NSW,2482,-28.55803,153.49995,22000,2008,Open at all times,ok
+541,Multicultural Neighbourhood Centre Community Garden,Community Garden,NSW,2299,-32.91626,151.71744,,2015,Open at all times,ok
+542,Murramarang Community Garden,Community Garden,NSW,2539,-35.50627,150.3902,3249,2015,Open at all times,ok
+543,Murrindindi,Community Garden,NSW,2570,-34.09278,150.62257,96000,2015,Open at all times,ok
+544,North Wollongong PCYC,Community Garden,NSW,,-34.41065,150.89319,,,Open at all times,ok
+545,Pittwater Community Gardens,Community Garden,NSW,2107,-33.6294,151.33575,,2015,Open at all times,ok
+546,Pyrmont Kids Garden Club,Community Garden,NSW,,-33.86839,151.19038,,,Open at all times,ok
+547,Quakers Hill Uniting Community Garden,Community Garden,NSW,2763,-33.72943,150.89151,30,2011,Open at all times,ok
+548,The Armidale Community Garden,Community Garden,NSW,2350,-30.75791,151.45155,4000,2015,Open at all times,check_location
+549,The Hub Community Garden,Community Garden,NSW,2057,-33.82451,151.20548,60,,Open at all times,ok
+550,Moss Vale Community Garden,Community Garden,NSW,2577,-34.55232,150.369,2000,2004,Set hours,ok
+551,Epping Community Garden,Community Garden,NSW,,-31.25322,146.9211,,,Open at all times,ok
+591,Erindale Community Garden,Community Garden,ACT,,-35.40209,149.09912,,,Open at all times,ok
+552,Fagan Park Eco Garden,Community Garden,NSW,2159,-33.64251,151.04114,3000,2015,Open at all times,ok
+595,Northside Community Garden,Community Garden,ACT,,-35.21864,149.13695,,,Open at all times,ok
+553,Marton Community Garden,Community Garden,NSW,,-33.89681,151.20275,,,Open at all times,shared_point
+554,Mid-Mountains Community Garden,Community Garden,NSW,,-33.71122,150.44472,,,Open at all times,ok
+555,Milson Park Community Garden,Community Garden,NSW,,-33.84754,151.21315,,,Open at all times,ok
+556,Newtown Community Garden,Community Garden,NSW,,-33.89655,151.17996,,,Open at all times,ok
+557,Northbank Community Garden,Community Garden,NSW,,-30.4452,152.90944,,,Open at all times,ok
+558,Organic Community Garden and Orchard,Community Garden,NSW,,-33.92467,150.8767,,,Open at all times,ok
+559,Paddington Community Garden,Community Garden,NSW,,-33.88461,151.22659,,,Open at all times,ok
+560,Poets Corner Community Garden,Community Garden,NSW,,-33.89375,151.20919,,,Open at all times,ok
+561,Randwick Community Organic Garden,Community Garden,NSW,2031,-33.91383,151.23727,,,Open at all times,ok
+562,Redhead Community Garden,Community Garden,NSW,2290,-33.01257,151.71574,600,2015,Open at all times,ok
+563,Little Keen Street Community Garden,Community Garden,NSW,2480,-28.80494,153.28272,15,2015,Open at all times,ok
+564,Lismore Community Garden,Community Garden,NSW,,-28.81141,153.28497,,,Open at all times,ok
+565,Light Horse Park Community Garden,Community Garden,NSW,,-33.92929,150.92483,,,Open at all times,ok
+566,Food 4 Life Organic community Garden,Community Garden,NSW,,-33.91104,150.93256,,,Open at all times,ok
+567,Hart Park Organic Community Garden and Orchard,Community Garden,NSW,,-33.91532,150.93358,,,Open at all times,ok
+568,Hawkesbury Earthcare,Community Garden,NSW,,-33.59651,150.7505,,,Open at all times,ok
+569,Holdsworth Communal Garden,Community Garden,NSW,2025,-33.88583,151.23741,,2015,Open at all times,ok
+570,Inverell Community Garden,Community Garden,NSW,2360,-29.76634,151.12164,,2015,Open at all times,ok
+571,James Street Reserve Community Garden,Community Garden,NSW,,-33.89251,151.20172,,,Open at all times,shared_point
+572,Jindabyne Community Garden,Community Garden,NSW,2627,-36.41902,148.61194,100,2015,Open at all times,ok
+573,Karabi Community Garden Project,Community Garden,NSW,2145,-33.79438,150.98117,,2015,Open at all times,ok
+574,Kioloa Community Garden,Community Garden,NSW,,-35.56082,150.37423,,,Open at all times,ok
+577,Albion Park Rail Public School Orchard garden,Community Garden,NSW,2527,-34.56772,150.7993,200,2015,Open at all times,ok
+578,Kingston Organic Community Garden,Community Garden,ACT,2600,-35.31667,149.13869,100,2015,Open at all times,ok
+579,COGS Cotter,Community Garden,ACT,2605,-35.33156,149.09371,3000,1980,Open at all times,ok
+580,Barrack Heights Community Garden,Community Garden,NSW,2528,-34.5654,150.84346,,,Open at all times,ok
+581,Bellingen Northbank Community Garden,Community Garden,NSW,,-30.4598,152.89092,,,Open at all times,ok
+582,Bill and Eva's Vegies on the Verge,Verge Garden,NSW,2204,-33.90332,151.15958,12,2015,Open at all times,ok
+583,Blue Mountains Organic Community Garden,Community Garden,NSW,2780,-33.71633,150.33879,,,Open at all times,ok
+584,Bluehaven Community Garden,Community Garden,NSW,2533,-34.66133,150.84536,,,Open at all times,ok
+585,Bourke Street Park Community Garden,Community Garden,NSW,2011,-33.86884,151.21934,700,2015,Open at all times,ok
+586,Bundanoon Community Garden,Community Garden,NSW,2578,-34.67126,150.29277,938,2015,Open at all times,ok
+587,Theodore Community Garden,Community Garden,ACT,,-35.37944,149.11252,,,Open at all times,ok
+588,The Dirty Beanstalk,Community Garden,ACT,2602,-35.27526,149.12514,,,Open at all times,ok
+589,Cotter Community Garden,Community Garden,ACT,,-35.32546,149.07748,,,Open at all times,ok
+592,Gardening-at-limestone,Community Garden,ACT,2602,-35.26851,149.1396,,,Open at all times,ok
+593,Holder Community Garden,Community Garden,ACT,,-35.33248,149.04024,,,Open at all times,ok
+594,Kaleen Community Garden,Community Garden,ACT,,-35.22506,149.10083,,,Open at all times,ok
+596,OConnor Community Garden,Community Garden,ACT,4163,-35.52264,149.08097,8000,,Open at all times,placeholder
+597,Oaks Estate Community Garden,Community Garden,ACT,,-35.52264,149.08097,,,Open at all times,placeholder
+598,Queanbeyan Community Garden.,Community Garden,NSW,,-35.52143,149.73887,,,Open at all times,ok
+599,Kariong Community Garden,Community Garden,NSW,,-33.439,151.29387,,,Open at all times,ok
+600,Casino Community Garden,Community Garden,NSW,2470,-28.86799,153.05141,,2015,Open at all times,ok
+601,Concord Community Garden,Community Garden,NSW,2137,-33.86673,151.10883,,,Open at all times,ok
+602,Charnwood Community Garden,Community Garden,ACT,,-35.20023,149.02733,,,Open at all times,ok
+603,Katoomba Blue Mountains Community Garden,Community Garden,NSW,,-33.70459,150.31184,,,Open at all times,ok
+604,Kooragang City Farm,Community Garden,NSW,2421,-32.5421,151.55754,50000,1996,Open at all times,ok
+605,Lakemba Community Garden,Community Garden,NSW,2560,-33.92015,151.07387,,2015,Open at all times,ok
+606,Mackie Lane Community Garden,Community Garden,NSW,2088,-33.8288,151.24406,500,2015,Open at all times,ok
+607,Macquarie University Community Garden Club,Community Garden,NSW,2122,-33.77859,151.10033,3000,2015,Open at all times,ok
+608,Manly Community Garden,Community Garden,NSW,,-33.79159,151.28196,,,Open at all times,ok
+609,Manly Vale Community Garden,Community Garden,NSW,2100,-33.78341,151.26813,,2015,Open at all times,ok
+610,Manning Valley Community Garden,Community Garden,NSW,2429,-31.87035,152.3728,,2015,Open at all times,ok
+611,Marton Community School Garden,Community Garden,NSW,,-33.89694,151.20596,,,Open at all times,ok
+612,Hurstville Community Garden Association,Community Garden,NSW,1481,-33.84497,151.00291,,2015,Open at all times,ok
+613,Habitat in Harmony Community Garden,Community Garden,NSW,2280,-33.02007,151.66895,13000,1995,Open at all times,ok
+614,Cook Community Garden,Community Garden,NSW,2017,-33.89717,151.20307,,,Open at all times,ok
+615,Cringila Park Community Garden,Community Garden,NSW,2505,-34.47489,150.87051,60,2015,Open at all times,ok
+616,Dapto Community Farm Inc,Community Garden,NSW,2530,-34.48292,150.80141,,1994,Open at all times,ok
+617,Deniliquin Community Garden's,Community Garden,NSW,2710,-35.52667,144.95946,,2004,Set hours,ok
+618,Denison Road Community Garden,Community Garden,NSW,,-33.90371,151.1387,,,Open at all times,ok
+619,Denman Community Garden,Community Garden,NSW,2328,-32.38889,150.68312,70,2015,Open at all times,ok
+620,Feed My People Community Garden,Community Garden,NSW,2400,-29.46138,149.84302,800,2015,Open at all times,ok
+621,Forster Community Garden,Community Garden,NSW,2428,-32.19261,152.51164,,2015,Open at all times,ok
+622,Glebe Community Garden,Community Garden,NSW,2050,-33.88118,151.18709,,1990,Open at all times,ok
+623,Grantham Heritage Park Community Garden,Community Garden,NSW,2147,-33.77972,150.93018,200,2015,Open at all times,ok
+624,Miss llewella Davies Camden Town Farm Community Garden,Community Garden,NSW,2570,-34.04931,150.69737,5000,2015,Open at all times,ok
