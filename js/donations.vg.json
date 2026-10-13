@@ -1,0 +1,85 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "One in three gardens now gives produce away",
+    "subtitle": "Share of responding gardens donating produce. CGA surveys, 187–249 responses a year"
+  },
+  "width": "container",
+  "height": 300,
+  "data": {
+    "url": "data/cga_survey_change_2021_2024.csv"
+  },
+  "transform": [
+    {"filter": "datum.metric == 'Donate produce to food banks soup kitchens charities'"},
+    {"calculate": "datum.year == 2021 ? '2021–22' : toString(datum.year)", "as": "Survey"},
+    {"calculate": "datum.value / 100", "as": "Gardens donating"}
+  ],
+  "encoding": {
+    "x": {
+      "field": "Survey",
+      "type": "ordinal",
+      "sort": ["2021–22", "2022", "2023", "2024"],
+      "axis": {"labelAngle": 0}
+    },
+    "y": {
+      "field": "Gardens donating",
+      "type": "quantitative",
+      "title": null,
+      "axis": {"format": "%", "tickCount": 4},
+      "scale": {"domain": [0, 0.4]}
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "line", "color": "#2e6b34", "strokeWidth": 2}
+    },
+    {
+      "mark": {"type": "circle", "color": "#2e6b34", "size": 100, "opacity": 1},
+      "encoding": {
+        "tooltip": [
+          {"field": "Survey", "type": "ordinal"},
+          {"field": "Gardens donating", "type": "quantitative", "format": ".1%"},
+          {"field": "source", "type": "nominal", "title": "Source"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "bottom",
+        "dy": -10,
+        "fontSize": 13,
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {"field": "Gardens donating", "type": "quantitative", "format": ".3~p"},
+        "color": {"value": "black"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "center",
+        "baseline": "top",
+        "dy": 14,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"value": ["Cost-of-living pressure", "cited in the 2023 report"]},
+        "color": {"value": "#4f554c"},
+        "opacity": {
+          "condition": {"test": "datum['Survey'] == '2023'", "value": 1},
+          "value": 0
+        }
+      }
+    }
+  ],
+  "config": {
+    "font": "Open Sans",
+    "view": {"stroke": null},
+    "axisX": {"grid": false},
+    "axisY": {"domain": false, "ticks": false}
+  }
+}
