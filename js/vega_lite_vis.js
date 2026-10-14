@@ -28,4 +28,9 @@ vegaEmbed("#practices_chart", vg_6, { "actions": false }).then(function(result) 
 var vg_7 = "js/funding.vg.json";
 vegaEmbed("#funding_chart", vg_7, { "actions": false }).then(function(result) {
 }).catch(console.error);
+
+
+var vg_8 = "js/brisbane_map.vg.json";
+vegaEmbed("#brisbane_map", vg_8, { "actions": false }).then(function(result) {
+}).catch(console.error);
  
