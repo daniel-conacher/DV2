@@ -6,7 +6,7 @@
   },
   "width": "container",
   "height": 520,
-  "projection": {"type": "equalEarth"},
+  "projection": {"type": "equalEarth", "rotate": [-134, 0, 0]},
   "params": [
     {
       "name": "Type_selection",
