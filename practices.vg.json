@@ -1,0 +1,86 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Low-impact growing is the norm",
+    "subtitle": "Share of responding gardens using each practice. CGA surveys 2021–22, 2023 and 2024"
+  },
+  "width": "container",
+  "height": 260,
+  "data": {
+    "url": "data/cga_survey_change_2021_2024.csv"
+  },
+  "transform": [
+    {"filter": "datum.theme == 'Sustainability'"},
+    {
+      "lookup": "metric",
+      "from": {
+        "data": {
+          "values": [
+            {"metric": "Mulching of garden beds", "Practice": "Mulching", "order": 1},
+            {"metric": "Improving soil to increase water holding capacity", "Practice": "Improving soil", "order": 2},
+            {"metric": "Informal composting and/or worm farming", "Practice": "Composting or worm farms", "order": 3},
+            {"metric": "Rainwater tanks", "Practice": "Rainwater tanks", "order": 4},
+            {"metric": "Wicking beds", "Practice": "Wicking beds", "order": 5},
+            {"metric": "Organic production strongly encouraged", "Practice": "Strongly encourage organic", "order": 6}
+          ]
+        },
+        "key": "metric",
+        "fields": ["Practice", "order"]
+      }
+    },
+    {"filter": "datum.Practice != null"},
+    {"calculate": "datum.year == 2021 ? '2021–22' : toString(datum.year)", "as": "Survey"},
+    {"calculate": "datum.value / 100", "as": "Gardens"}
+  ],
+  "encoding": {
+    "y": {
+      "field": "Practice",
+      "type": "nominal",
+      "sort": {"field": "order", "op": "min"},
+      "title": null
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "rule", "color": "#c9cdc2", "strokeWidth": 2},
+      "encoding": {
+        "x": {"field": "Gardens", "type": "quantitative", "aggregate": "min"},
+        "x2": {"field": "Gardens", "aggregate": "max"}
+      }
+    },
+    {
+      "mark": {"type": "circle", "size": 120, "opacity": 1, "stroke": "white", "strokeWidth": 1},
+      "encoding": {
+        "x": {
+          "field": "Gardens",
+          "type": "quantitative",
+          "title": "Share of responding gardens",
+          "scale": {"domain": [0, 1]},
+          "axis": {"format": "%", "tickCount": 5}
+        },
+        "color": {
+          "field": "Survey",
+          "type": "ordinal",
+          "title": "Survey",
+          "scale": {
+            "domain": ["2021–22", "2023", "2024"],
+            "range": ["#9cc192", "#5e9a55", "#2e6b34"]
+          },
+          "legend": {"orient": "top", "direction": "horizontal"}
+        },
+        "tooltip": [
+          {"field": "Practice", "type": "nominal"},
+          {"field": "Survey", "type": "ordinal"},
+          {"field": "Gardens", "type": "quantitative", "format": ".1%", "title": "Gardens using it"},
+          {"field": "source", "type": "nominal", "title": "Source"},
+          {"field": "note", "type": "nominal", "title": "Note"}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "font": "Open Sans",
+    "view": {"stroke": null},
+    "axisY": {"grid": false, "domain": false, "ticks": false, "labelFontSize": 12, "labelPadding": 8}
+  }
+}
