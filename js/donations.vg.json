@@ -16,7 +16,7 @@
   ],
   "encoding": {
     "x": {
-      "field": "Survey Year",
+      "field": "Survey",
       "type": "ordinal",
       "sort": ["2021–22", "2022", "2023", "2024"],
       "axis": {"labelAngle": 0}
