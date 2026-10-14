@@ -2,21 +2,79 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Only 7 of Brisbane's 49 council-listed gardens are in the national directory",
-    "subtitle": "Brisbane City Council community gardens and city farms. Click the legend to highlight a group"
+    "subtitle": "Darker grey: City of Brisbane council area. Click the legend to highlight a group"
   },
   "width": "container",
-  "height": 480,
+  "height": 520,
   "projection": {"type": "equalEarth", "rotate": [-153, 0, 0]},
   "layer": [
     {
       "data": {
-        "url": "js/lga_2021.topojson",
-        "format": {"type": "topojson", "feature": "lga_2021"}
+        "url": "js/brisbane_region.topojson",
+        "format": {"type": "topojson", "feature": "brisbane_region"}
+      },
+      "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 1},
+      "encoding": {
+        "color": {
+          "condition": {"test": "datum.properties.LGA_NAME21 == 'Brisbane'", "value": "#d9d8d0"},
+          "value": "#efeee9"
+        },
+        "tooltip": [
+          {"field": "properties.LGA_NAME21", "type": "nominal", "title": "Council area"}
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "js/brisbane_region.topojson",
+        "format": {"type": "topojson", "feature": "brisbane_region"}
       },
       "transform": [
         {"filter": "datum.properties.LGA_NAME21 == 'Brisbane'"}
       ],
-      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+      "mark": {"type": "geoshape", "fill": null, "stroke": "#858a80", "strokeWidth": 1.2}
+    },
+    {
+      "data": {
+        "values": [
+          {"label": "Moreton Bay", "lon": 153.25, "lat": -27.36, "kind": "water"},
+          {"label": "Ipswich", "lon": 152.78, "lat": -27.62, "kind": "council"},
+          {"label": "Logan", "lon": 153.10, "lat": -27.69, "kind": "council"},
+          {"label": "Redland", "lon": 153.24, "lat": -27.57, "kind": "council"},
+          {"label": "Moreton Bay Region", "lon": 152.93, "lat": -27.25, "kind": "council"}
+        ]
+      },
+      "mark": {"type": "text", "fontSize": 12, "fontStyle": "italic"},
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "text": {"field": "label", "type": "nominal"},
+        "color": {
+          "condition": {"test": "datum.kind == 'water'", "value": "#5b7f95"},
+          "value": "#858a80"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [{"label": "Brisbane CBD", "lon": 153.026, "lat": -27.469}]
+      },
+      "layer": [
+        {
+          "mark": {"type": "square", "size": 60, "color": "black", "opacity": 1}
+        },
+        {
+          "mark": {"type": "text", "align": "left", "dx": 9, "fontSize": 12, "fontWeight": "bold"},
+          "encoding": {
+            "text": {"field": "label", "type": "nominal"},
+            "color": {"value": "black"}
+          }
+        }
+      ],
+      "encoding": {
+        "longitude": {"field": "lon", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"}
+      }
     },
     {
       "data": {
@@ -41,10 +99,10 @@
             "domain": ["Listed in national directory", "Not listed"],
             "range": ["#2e6b34", "#eb6834"]
           },
-          "legend": {"orient": "top-left"}
+          "legend": {"orient": "top-left", "fillColor": "white", "padding": 6}
         },
         "opacity": {
-          "condition": {"param": "status_highlight", "value": 0.9},
+          "condition": {"param": "status_highlight", "value": 0.95},
           "value": 0.15
         },
         "tooltip": [
@@ -59,6 +117,6 @@
   ],
   "config": {
     "font": "Open Sans",
-    "view": {"stroke": null}
+    "view": {"stroke": null, "fill": "#dce8ee"}
   }
 }
