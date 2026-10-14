@@ -11,3 +11,7 @@ vegaEmbed("#distributions_chart", vg_2, { "actions": false }).then(function(resu
 var vg_3 = "js/wellbeing.vg.json";
 vegaEmbed("#wellbeing_chart", vg_3, { "actions": false }).then(function(result) {
 }).catch(console.error);
+
+var vg_4 = "js/garden_map.vg.json";
+vegaEmbed("#garden_map", vg_4, { "actions": false }).then(function(result) {
+}).catch(console.error);

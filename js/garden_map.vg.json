@@ -1,0 +1,80 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Community gardens listed in the national directory",
+    "subtitle": "566 gardens with checked locations. ACFCGN directory, 2018 snapshot (mostly 2015 listings)"
+  },
+  "width": "container",
+  "height": 520,
+  "projection": {"type": "equalEarth"},
+  "params": [
+    {
+      "name": "Type_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Community garden",
+          "School garden",
+          "City farm, verge or other"
+        ],
+        "labels": [
+          "Show All",
+          "Community garden",
+          "School garden",
+          "City farm, verge or other"
+        ],
+        "name": "Garden type: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "js/lga_2021.topojson",
+        "format": {"type": "topojson", "feature": "lga_2021"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white", "strokeWidth": 0.5}
+    },
+    {
+      "data": {
+        "url": "data/gardens_acfcgn_2018.csv"
+      },
+      "transform": [
+        {"filter": "datum.coord_flag == 'ok' || datum.coord_flag == 'shared_point'"},
+        {
+          "calculate": "datum.garden_type == 'Community Garden' ? 'Community garden' : datum.garden_type == 'School Garden' ? 'School garden' : 'City farm, verge or other'",
+          "as": "Type"
+        },
+        {"filter": "Type_selection == null || datum.Type == Type_selection"}
+      ],
+      "mark": {"type": "circle", "size": 30, "opacity": 0.7, "stroke": "white", "strokeWidth": 0.5},
+      "encoding": {
+        "longitude": {"field": "long", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "color": {
+          "field": "Type",
+          "type": "nominal",
+          "title": "Garden type",
+          "scale": {
+            "domain": ["Community garden", "School garden", "City farm, verge or other"],
+            "range": ["#2e6b34", "#eb6834", "#2a78d6"]
+          },
+          "legend": {"orient": "top-left"}
+        },
+        "tooltip": [
+          {"field": "garden", "type": "nominal", "title": "Garden"},
+          {"field": "Type", "type": "nominal", "title": "Type"},
+          {"field": "state", "type": "nominal", "title": "State"},
+          {"field": "postcode", "type": "nominal", "title": "Postcode"},
+          {"field": "year_established", "type": "nominal", "title": "Established"},
+          {"field": "size_m2", "type": "quantitative", "title": "Size (m²)", "format": ","}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "font": "Open Sans",
+    "view": {"stroke": null}
+  }
+}
