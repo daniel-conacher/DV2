@@ -24,3 +24,8 @@ var vg_6 = "js/practices.vg.json";
 vegaEmbed("#practices_chart", vg_6, { "actions": false }).then(function(result) {
 }).catch(console.error);
  
+
+var vg_7 = "js/funding.vg.json";
+vegaEmbed("#funding_chart", vg_7, { "actions": false }).then(function(result) {
+}).catch(console.error);
+ 

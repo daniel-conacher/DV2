@@ -1,0 +1,100 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Gardens increasingly fund themselves",
+    "subtitle": "Share of responding gardens. Bars show the 2024 survey, black ticks show 2021–22"
+  },
+  "width": "container",
+  "height": 260,
+  "data": {
+    "url": "data/cga_survey_change_2021_2024.csv"
+  },
+  "transform": [
+    {"filter": "datum.theme == 'Funding'"},
+    {
+      "lookup": "metric",
+      "from": {
+        "data": {
+          "values": [
+            {"metric": "Self-funding activities", "Item": "Self-funding (plot fees, plant sales)", "Group": "Where funding comes from", "order": 1},
+            {"metric": "In-kind support", "Item": "In-kind support (labour, donated goods)", "Group": "Where funding comes from", "order": 2},
+            {"metric": "Government support", "Item": "Government grants", "Group": "Where funding comes from", "order": 3},
+            {"metric": "Support from non-government organisations", "Item": "Non-government support", "Group": "Where funding comes from", "order": 4},
+            {"metric": "Unmet non-staff funding needs", "Item": "Unmet funding needs (non-staff)", "Group": "What is still missing", "order": 5},
+            {"metric": "Unmet staffing needs", "Item": "Unmet staffing needs", "Group": "What is still missing", "order": 6}
+          ]
+        },
+        "key": "metric",
+        "fields": ["Item", "Group", "order"]
+      }
+    },
+    {"filter": "datum.Item != null"},
+    {"calculate": "datum.year == 2021 ? '2021–22' : toString(datum.year)", "as": "Survey"},
+    {"calculate": "datum.value / 100", "as": "Gardens"}
+  ],
+  "encoding": {
+    "y": {
+      "field": "Item",
+      "type": "nominal",
+      "sort": {"field": "order", "op": "min"},
+      "title": null
+    },
+    "x": {
+      "field": "Gardens",
+      "type": "quantitative",
+      "title": "Share of responding gardens",
+      "scale": {"domain": [0, 1]},
+      "axis": {"format": "%", "tickCount": 5}
+    }
+  },
+  "layer": [
+    {
+      "transform": [{"filter": "datum.year == 2024"}],
+      "mark": {"type": "bar", "cornerRadiusEnd": 4, "height": 18},
+      "encoding": {
+        "color": {
+          "field": "Group",
+          "type": "nominal",
+          "title": null,
+          "scale": {
+            "domain": ["Where funding comes from", "What is still missing"],
+            "range": ["#2e6b34", "#eb6834"]
+          },
+          "legend": {"orient": "top", "direction": "horizontal"}
+        },
+        "tooltip": [
+          {"field": "Item", "type": "nominal"},
+          {"field": "Survey", "type": "ordinal"},
+          {"field": "Gardens", "type": "quantitative", "format": ".1%"},
+          {"field": "source", "type": "nominal", "title": "Source"},
+          {"field": "note", "type": "nominal", "title": "Note"}
+        ]
+      }
+    },
+    {
+      "transform": [{"filter": "datum.year == 2021"}],
+      "mark": {"type": "tick", "color": "black", "thickness": 2, "size": 26},
+      "encoding": {
+        "tooltip": [
+          {"field": "Item", "type": "nominal"},
+          {"field": "Survey", "type": "ordinal"},
+          {"field": "Gardens", "type": "quantitative", "format": ".1%"},
+          {"field": "source", "type": "nominal", "title": "Source"}
+        ]
+      }
+    },
+    {
+      "transform": [{"filter": "datum.year == 2024"}],
+      "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 14, "fontSize": 12, "fontWeight": "bold"},
+      "encoding": {
+        "text": {"field": "Gardens", "type": "quantitative", "format": ".0%"},
+        "color": {"value": "black"}
+      }
+    }
+  ],
+  "config": {
+    "font": "Open Sans",
+    "view": {"stroke": null},
+    "axisY": {"grid": false, "domain": false, "ticks": false, "labelFontSize": 12, "labelPadding": 8, "labelLimit": 260}
+  }
+}
