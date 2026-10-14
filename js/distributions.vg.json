@@ -53,7 +53,7 @@
       "title": "Survey",
       "scale": {
         "domain": ["2023", "2024"],
-        "range": ["#86b07c", "#2e6b34"]
+        "range": ["#5e9a55", "#2e6b34"]
       },
       "legend": {"orient": "top", "direction": "horizontal"}
     }

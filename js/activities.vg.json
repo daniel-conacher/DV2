@@ -1,0 +1,84 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Gardens run more social activities than in 2021–22",
+    "subtitle": "Share of responding gardens running each activity. CGA surveys 2021–22, 2023 and 2024"
+  },
+  "width": "container",
+  "height": 200,
+  "data": {
+    "url": "data/cga_survey_change_2021_2024.csv"
+  },
+  "transform": [
+    {"filter": "datum.theme == 'Connection'"},
+    {
+      "lookup": "metric",
+      "from": {
+        "data": {
+          "values": [
+            {"metric": "Workshops and informal training", "Activity": "Workshops and training", "order": 1},
+            {"metric": "Visits and tours", "Activity": "Visits and tours", "order": 2},
+            {"metric": "Community events", "Activity": "Community events", "order": 3},
+            {"metric": "Shared meals in the garden", "Activity": "Shared meals", "order": 4}
+          ]
+        },
+        "key": "metric",
+        "fields": ["Activity", "order"]
+      }
+    },
+    {"filter": "datum.Activity != null"},
+    {"calculate": "datum.year == 2021 ? '2021–22' : toString(datum.year)", "as": "Survey"},
+    {"calculate": "datum.value / 100", "as": "Gardens"}
+  ],
+  "encoding": {
+    "y": {
+      "field": "Activity",
+      "type": "nominal",
+      "sort": {"field": "order", "op": "min"},
+      "title": null
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "rule", "color": "#c9cdc2", "strokeWidth": 2},
+      "encoding": {
+        "x": {"field": "Gardens", "type": "quantitative", "aggregate": "min"},
+        "x2": {"field": "Gardens", "aggregate": "max"}
+      }
+    },
+    {
+      "mark": {"type": "circle", "size": 120, "opacity": 1, "stroke": "white", "strokeWidth": 1},
+      "encoding": {
+        "x": {
+          "field": "Gardens",
+          "type": "quantitative",
+          "title": "Share of responding gardens",
+          "scale": {"domain": [0, 1]},
+          "axis": {"format": "%", "tickCount": 5}
+        },
+        "color": {
+          "field": "Survey",
+          "type": "ordinal",
+          "title": "Survey",
+          "scale": {
+            "domain": ["2021–22", "2023", "2024"],
+            "range": ["#9cc192", "#5e9a55", "#2e6b34"]
+          },
+          "legend": {"orient": "top", "direction": "horizontal"}
+        },
+        "tooltip": [
+          {"field": "Activity", "type": "nominal"},
+          {"field": "Survey", "type": "ordinal"},
+          {"field": "Gardens", "type": "quantitative", "format": ".1%", "title": "Gardens running it"},
+          {"field": "source", "type": "nominal", "title": "Source"},
+          {"field": "note", "type": "nominal", "title": "Note"}
+        ]
+      }
+    }
+  ],
+  "config": {
+    "font": "Open Sans",
+    "view": {"stroke": null},
+    "axisY": {"grid": false, "domain": false, "ticks": false, "labelFontSize": 12, "labelPadding": 8}
+  }
+}

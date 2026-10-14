@@ -15,3 +15,12 @@ vegaEmbed("#wellbeing_chart", vg_3, { "actions": false }).then(function(result) 
 var vg_4 = "js/garden_map.vg.json";
 vegaEmbed("#garden_map", vg_4, { "actions": false }).then(function(result) {
 }).catch(console.error);
+
+var vg_5 = "js/activities.vg.json";
+vegaEmbed("#activities_chart", vg_5, { "actions": false }).then(function(result) {
+}).catch(console.error);
+ 
+var vg_6 = "js/practices.vg.json";
+vegaEmbed("#practices_chart", vg_6, { "actions": false }).then(function(result) {
+}).catch(console.error);
+ 
