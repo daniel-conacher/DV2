@@ -1,0 +1,86 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Most listed gardens are small, but a few city farms cover hectares",
+    "subtitle": "153 gardens that reported their size (self-reported, m²). ACFCGN directory, 2018 snapshot"
+  },
+  "width": "container",
+  "height": 520,
+  "projection": {"type": "equalEarth", "rotate": [-134, 0, 0]},
+  "params": [
+    {
+      "name": "State_selection",
+      "bind": {
+        "input": "select",
+        "options": [null, "NSW", "VIC", "QLD", "WA", "SA", "TAS", "ACT", "NT"],
+        "labels": [
+          "Show All",
+          "New South Wales",
+          "Victoria",
+          "Queensland",
+          "Western Australia",
+          "South Australia",
+          "Tasmania",
+          "Australian Capital Territory",
+          "Northern Territory"
+        ],
+        "name": "Zoom to state: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "js/australia_states.topojson",
+        "format": {"type": "topojson", "feature": "states"}
+      },
+      "transform": [
+        {"filter": "State_selection == null || datum.properties.code == State_selection"}
+      ],
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white", "strokeWidth": 1}
+    },
+    {
+      "data": {
+        "url": "data/gardens_acfcgn_2018.csv"
+      },
+      "transform": [
+        {"filter": "datum.coord_flag == 'ok' || datum.coord_flag == 'shared_point'"},
+        {"filter": "isValid(datum.size_m2)"},
+        {"filter": "State_selection == null || datum.state == State_selection"}
+      ],
+      "encoding": {
+        "longitude": {"field": "long", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"}
+      },
+      "layer": [
+        {
+          "mark": {"type": "circle", "color": "#2e6b34", "opacity": 0.6, "stroke": "white", "strokeWidth": 0.8},
+          "encoding": {
+            "size": {
+              "field": "size_m2",
+              "type": "quantitative",
+              "title": "Garden size (m²)",
+              "scale": {
+                "type": "threshold",
+                "domain": [100, 500, 2000, 10000],
+                "range": [15, 45, 110, 250, 520]
+              },
+              "legend": {"format": ",", "orient": "right"}
+            },
+            "tooltip": [
+              {"field": "garden", "type": "nominal", "title": "Garden"},
+              {"field": "garden_type", "type": "nominal", "title": "Type"},
+              {"field": "state", "type": "nominal", "title": "State"},
+              {"field": "size_m2", "type": "quantitative", "title": "Size (m²)", "format": ","},
+              {"field": "year_established", "type": "nominal", "title": "Established"}
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "font": "Open Sans",
+    "view": {"stroke": null}
+  }
+}
