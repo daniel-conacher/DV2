@@ -38,3 +38,6 @@ var vg_9 = "js/garden_size_map.vg.json";
 vegaEmbed("#garden_size_map", vg_9, { "actions": false }).then(function(result) {
 }).catch(console.error);
  
+var vg_10 = "js/state_tile_map.vg.json";
+vegaEmbed("#state_tile_map", vg_10, { "actions": false }).then(function(result) {
+}).catch(console.error);

@@ -1,0 +1,9 @@
+state,state_name,col,row,gardens_listed,gardens_excl_school,population_2025
+NSW,New South Wales,2,1,149,149,8592524
+VIC,Victoria,2,2,204,199,7073859
+QLD,Queensland,2,0,44,43,5669764
+SA,South Australia,1,1,54,53,1902665
+WA,Western Australia,0,1,54,54,3044382
+TAS,Tasmania,2,3,95,45,576261
+NT,Northern Territory,1,0,10,10,264556
+ACT,Australian Capital Territory,3,2,14,14,484630

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Tasmania lists the most gardens per resident",
+    "subtitle": ["Listed gardens per 100,000 residents. Directory 2018 snapshot,", "population at 30 June 2025 (ABS)"]
+  },
+  "width": 400,
+  "height": 400,
+  "data": {
+    "url": "data/state_garden_rates.csv"
+  },
+  "params": [
+    {
+      "name": "Count_selection",
+      "value": "all",
+      "bind": {
+        "input": "select",
+        "options": ["all", "excl"],
+        "labels": ["All listed gardens", "Excluding school gardens"],
+        "name": "Count: "
+      }
+    }
+  ],
+  "transform": [
+    {"calculate": "Count_selection == 'all' ? datum.gardens_listed : datum.gardens_excl_school", "as": "Gardens"},
+    {"calculate": "datum.Gardens / datum.population_2025 * 100000", "as": "Per 100,000 residents"}
+  ],
+  "encoding": {
+    "x": {"field": "col", "type": "ordinal", "axis": null, "scale": {"domain": [0, 1, 2, 3], "paddingInner": 0.08}},
+    "y": {"field": "row", "type": "ordinal", "axis": null, "scale": {"domain": [0, 1, 2, 3], "paddingInner": 0.08}}
+  },
+  "layer": [
+    {
+      "mark": {"type": "rect", "cornerRadius": 4},
+      "encoding": {
+        "color": {
+          "field": "Per 100,000 residents",
+          "type": "quantitative",
+          "title": "Gardens per 100,000",
+          "scale": {
+            "type": "threshold",
+            "domain": [1, 2, 3, 5],
+            "range": ["#e3efdf", "#b7d4ad", "#86b07c", "#4f8f4a", "#2e6b34"]
+          },
+          "legend": {"orient": "bottom", "direction": "horizontal"}
+        },
+        "tooltip": [
+          {"field": "state_name", "type": "nominal", "title": "State"},
+          {"field": "Gardens", "type": "quantitative", "title": "Gardens listed"},
+          {"field": "population_2025", "type": "quantitative", "title": "Population 2025", "format": ","},
+          {"field": "Per 100,000 residents", "type": "quantitative", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "dy": -9, "fontSize": 15, "fontWeight": "bold"},
+      "encoding": {
+        "text": {"field": "state", "type": "nominal"},
+        "color": {
+          "condition": {"test": "datum['Per 100,000 residents'] >= 3", "value": "white"},
+          "value": "black"
+        }
+      }
+    },
+    {
+      "mark": {"type": "text", "dy": 11, "fontSize": 13},
+      "encoding": {
+        "text": {"field": "Per 100,000 residents", "type": "quantitative", "format": ".1f"},
+        "color": {
+          "condition": {"test": "datum['Per 100,000 residents'] >= 3", "value": "white"},
+          "value": "black"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {"col": 3, "row": 0, "note": ["QLD is under-listed:", "only 7 of Brisbane's", "49 council gardens", "are in the directory"]},
+          {"col": 3, "row": 3, "note": ["TAS includes a", "school garden", "program. Switch the", "count to compare"]}
+        ]
+      },
+      "mark": {"type": "text", "align": "center", "baseline": "middle", "fontSize": 10.5, "fontStyle": "italic", "lineHeight": 13},
+      "encoding": {
+        "text": {"field": "note"},
+        "color": {"value": "#4f554c"}
+      }
+    }
+  ],
+  "config": {
+    "font": "Open Sans",
+    "view": {"stroke": null}
+  }
+}
