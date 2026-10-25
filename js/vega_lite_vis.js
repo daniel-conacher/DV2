@@ -41,3 +41,7 @@ vegaEmbed("#garden_size_map", vg_9, { "actions": false }).then(function(result) 
 var vg_10 = "js/state_tile_map.vg.json";
 vegaEmbed("#state_tile_map", vg_10, { "actions": false }).then(function(result) {
 }).catch(console.error);
+
+var vg_11 = "js/lga_choropleth.vg.json";
+vegaEmbed("#lga_choropleth", vg_11, { "actions": false }).then(function(result) {
+}).catch(console.error);

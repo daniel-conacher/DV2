@@ -1,0 +1,103 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Listed gardens per 100,000 residents, by council area",
+    "subtitle": "Gardens in the ACFCGN directory (2018) per 100,000 residents at 30 June 2025 (ABS). Zoom in to see the city councils"
+  },
+  "width": "container",
+  "height": 520,
+  "projection": {"type": "equalEarth", "rotate": [-134, 0, 0]},
+  "data": {
+    "url": "js/lga_2025.topojson",
+    "format": {"type": "topojson", "feature": "lga_2025"}
+  },
+  "params": [
+    {
+      "name": "Zoom_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Sydney",
+          "Melbourne",
+          "Brisbane",
+          "Perth",
+          "Adelaide",
+          "Hobart",
+          "New South Wales",
+          "Victoria",
+          "Queensland",
+          "Western Australia",
+          "South Australia",
+          "Tasmania",
+          "Northern Territory"
+        ],
+        "labels": [
+          "Show All",
+          "Greater Sydney area",
+          "Greater Melbourne area",
+          "Greater Brisbane area",
+          "Greater Perth area",
+          "Greater Adelaide area",
+          "Greater Hobart area",
+          "New South Wales",
+          "Victoria",
+          "Queensland",
+          "Western Australia",
+          "South Australia",
+          "Tasmania",
+          "Northern Territory"
+        ],
+        "name": "Zoom to: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "Zoom_selection == null || datum.properties.STE_NAME21 == Zoom_selection || (Zoom_selection == 'Sydney' && datum.properties.cx > 150.2 && datum.properties.cx < 151.5 && datum.properties.cy > -34.35 && datum.properties.cy < -33.15) || (Zoom_selection == 'Melbourne' && datum.properties.cx > 144.4 && datum.properties.cx < 145.7 && datum.properties.cy > -38.45 && datum.properties.cy < -37.4) || (Zoom_selection == 'Brisbane' && datum.properties.cx > 152.55 && datum.properties.cx < 153.5 && datum.properties.cy > -27.9 && datum.properties.cy < -26.9) || (Zoom_selection == 'Perth' && datum.properties.cx > 115.5 && datum.properties.cx < 116.4 && datum.properties.cy > -32.7 && datum.properties.cy < -31.4) || (Zoom_selection == 'Adelaide' && datum.properties.cx > 138.4 && datum.properties.cx < 138.95 && datum.properties.cy > -35.2 && datum.properties.cy < -34.5) || (Zoom_selection == 'Hobart' && datum.properties.cx > 147.0 && datum.properties.cx < 147.75 && datum.properties.cy > -43.2 && datum.properties.cy < -42.6)"
+    },
+    {
+      "filter": "indexof(['Sydney', 'Melbourne', 'Brisbane', 'Perth', 'Adelaide', 'Hobart'], Zoom_selection) < 0 || indexof(datum.properties.LGA_NAME25, 'Unincorporated') < 0"
+    },
+    {
+      "lookup": "properties.LGA_CODE25",
+      "from": {
+        "data": {
+          "url": "data/lga_garden_rates.csv",
+          "format": {"parse": {"lga_code": "string"}}
+        },
+        "key": "lga_code",
+        "fields": ["gardens", "population_2025"]
+      }
+    },
+    {"calculate": "datum.gardens / datum.population_2025 * 100000", "as": "Gardens per 100,000 residents"},
+    {
+      "calculate": "datum['Gardens per 100,000 residents'] == 0 ? 'None listed' : datum['Gardens per 100,000 residents'] < 2 ? 'Under 2' : datum['Gardens per 100,000 residents'] < 5 ? '2 to 5' : datum['Gardens per 100,000 residents'] < 10 ? '5 to 10' : '10 or more'",
+      "as": "Class"
+    }
+  ],
+  "mark": {"type": "geoshape", "stroke": "white", "strokeWidth": 0.4},
+  "encoding": {
+    "color": {
+      "field": "Class",
+      "type": "ordinal",
+      "title": ["Gardens per", "100,000 residents"],
+      "scale": {
+        "domain": ["None listed", "Under 2", "2 to 5", "5 to 10", "10 or more"],
+        "range": ["#e9e8e2", "#cfe3c7", "#9cc192", "#5e9a55", "#2e6b34"]
+      },
+      "legend": {"orient": "right", "symbolType": "square", "symbolSize": 150}
+    },
+    "tooltip": [
+      {"field": "properties.LGA_NAME25", "type": "nominal", "title": "Council area"},
+      {"field": "properties.STE_NAME21", "type": "nominal", "title": "State"},
+      {"field": "gardens", "type": "quantitative", "title": "Gardens listed"},
+      {"field": "population_2025", "type": "quantitative", "title": "Population 2025", "format": ","},
+      {"field": "Gardens per 100,000 residents", "type": "quantitative", "format": ".1f"}
+    ]
+  },
+  "config": {
+    "font": "Open Sans",
+    "view": {"stroke": null}
+  }
+}
