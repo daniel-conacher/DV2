@@ -12,7 +12,7 @@
   "transform": [
     {"filter": "datum.question == 'Land tenure'"},
     {"calculate": "datum.percent_reported / 100", "as": "Share of gardens"},
-    {"calculate": "datum.category == 'Other' ? -1 : datum.percent_reported", "as": "Sort order"},
+    {"calculate": "datum.category == 'Other' ? -1 : toNumber(datum.percent_reported)", "as": "Sort order"},
     {"calculate": "datum.category == 'Council land' ? 'Council land' : 'Other tenure'", "as": "Highlight"}
   ],
   "encoding": {
