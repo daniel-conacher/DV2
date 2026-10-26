@@ -154,3 +154,16 @@ h1 {
 .small-font {
     font-size: 14px;
 }
+
+.caveats {
+    padding-left: 20px;
+    margin: 0 0 24px;
+    max-width: 80ch;
+}
+
+.caveats li {
+    font-size: 16px;
+    line-height: 1.65;
+    color: #3f453c;
+    margin-bottom: 6px;
+}s
