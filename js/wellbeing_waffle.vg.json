@@ -18,7 +18,7 @@
       "as": "order"
     },
     {
-      "calculate": "format(datum.value, '.3~') + '%|' + (datum.metric == 'Health and wellbeing improved' ? 'say their health and wellbeing improved' : datum.metric == 'Skills to grow food at home improved' ? 'got better at growing food at home' : 'spend less on food each week')",
+      "calculate": "format(datum.value, '.3~') + '%|' + (datum.metric == 'Health and wellbeing improved' ? 'say their wellbeing improved' : datum.metric == 'Skills to grow food at home improved' ? 'grow food better at home' : 'spend less on food')",
       "as": "Panel"
     },
     {
@@ -54,7 +54,7 @@
       "title": null,
       "header": {
         "labelExpr": "split(datum.value, '|')",
-        "labelFontSize": 14,
+        "labelFontSize": 13,
         "labelLineHeight": 18,
         "labelLimit": 0,
         "labelPadding": 10,

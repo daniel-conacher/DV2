@@ -2,7 +2,10 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "More gardens are drawing big crowds",
-    "subtitle": "Share of responding gardens in each band. 2023 to the left, 2024 to the right. CGA surveys: 240 and 249 responses"
+   "subtitle": [
+  "Share of responding gardens in each band: 2023 to the left, 2024 to the right.",
+  "CGA surveys, 240 and 249 responses"
+]
   },
   "width": "container",
   "height": 280,
