@@ -97,7 +97,7 @@
           "title": null,
           "scale": {
             "domain": ["Listed in national directory", "Not listed"],
-            "range": ["#2e6b34", "#6250d6"]
+            "range": ["#2e6b34", "#2a78d6"]
           },
           "legend": {"orient": "top-left", "fillColor": "white", "padding": 6}
         },
@@ -114,15 +114,24 @@
         ]
       }
     },
-    {
-  "data": {"values": [{"lon": 153.024, "lat": -27.515, "note": ["Yeronga is listed, but its directory", "point is plotted about 25 km north"]}]},
-  "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 12, "fontSize": 11.5, "fontStyle": "italic"},
+{
+  "data": {"values": [{"lon": 153.024, "lat": -27.515}]},
+  "mark": {"type": "point", "shape": "circle", "size": 400, "filled": false, "stroke": "#1d211c", "strokeWidth": 1.5},
+  "encoding": {
+    "longitude": {"field": "lon", "type": "quantitative"},
+    "latitude": {"field": "lat", "type": "quantitative"}
+  }
+},
+{
+  "data": {"values": [{"lon": 153.16, "lat": -27.53, "note": ["Circled: Yeronga is listed, but its", "directory point is plotted", "about 25 km north"]}]},
+  "mark": {"type": "text", "align": "left", "baseline": "middle", "fontSize": 11.5, "fontStyle": "italic"},
   "encoding": {
     "longitude": {"field": "lon", "type": "quantitative"},
     "latitude": {"field": "lat", "type": "quantitative"},
     "text": {"field": "note"},
-    "color": {"value": "#4f554c"}
+    "color": {"value": "#1d211c"}
   }
+}
 }
   ],
   "config": {
