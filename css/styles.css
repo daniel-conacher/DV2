@@ -63,21 +63,50 @@ h1 {
 
 .header {
     border-bottom: 3px solid #2e6b34;
-    padding-bottom: 10px;
+    padding-bottom: 18px;
+    margin-bottom: 32px;
 }
 
 .kicker {
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     font-size: 13px;
     font-weight: 600;
     color: #2e6b34;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 
 .lead {
-    font-size: 18px;
+    font-size: 19px;
+    line-height: 1.6;
     color: #1d211c;
+    max-width: 62ch;
+}
+
+.stats {
+    background-color: #f2f6ef;
+    border-radius: 8px;
+    padding: 22px 0 10px;
+}
+
+.stats [class*="pure-u"] {
+    padding: 0 24px;
+    box-sizing: border-box;
+}
+
+.stat-value {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #2e6b34;
+    margin: 0 0 6px;
+}
+
+.stat-label {
+    font-size: 14px;
+    line-height: 1.45;
+    margin: 0;
 }
 
 .vis-container {
