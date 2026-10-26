@@ -58,23 +58,20 @@
       }
     },
     {
-      "mark": {
-        "type": "text",
-        "align": "center",
-        "baseline": "top",
-        "dy": 14,
-        "fontSize": 11.5,
-        "fontStyle": "italic"
-      },
-      "encoding": {
-        "text": {"value": ["Cost-of-living pressure", "cited in the 2023 report"]},
-        "color": {"value": "#4f554c"},
-        "opacity": {
-          "condition": {"test": "datum['Survey'] == '2023'", "value": 1},
-          "value": 0
-        }
-      }
+    "transform": [{"filter": "datum.Survey == '2023'"}],
+    "mark": {
+      "type": "text",
+      "align": "center",
+      "baseline": "top",
+      "dy": 60,
+      "fontSize": 11.5,
+      "fontStyle": "italic"
+    },
+    "encoding": {
+      "text": {"value": ["Cost-of-living pressure", "cited in the 2023 report"]},
+      "color": {"value": "#4f554c"}
     }
+  }
   ],
   "config": {
     "font": "Open Sans",

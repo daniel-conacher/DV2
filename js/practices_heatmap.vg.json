@@ -48,7 +48,16 @@
       "type": "nominal",
       "sort": {"field": "order", "op": "min"},
       "title": null,
-      "axis": {"labelFontSize": 12, "domain": false, "ticks": false, "labelPadding": 8}
+      "axis": {
+        "labelFontSize": 12,
+        "domain": false,
+        "ticks": false,
+        "labelPadding": 8,
+        "labelFontWeight": {
+          "condition": {"test": "datum.value == 'Strongly encourage organic'", "value": "bold"},
+          "value": "normal"
+          }
+      }
     }
   },
   "layer": [
@@ -71,7 +80,7 @@
         ]
       }
     },
-    {
+        {
       "mark": {"type": "text", "fontSize": 12, "fontWeight": "bold"},
       "encoding": {
         "text": {"field": "Gardens", "type": "quantitative", "format": ".0%"},
@@ -80,6 +89,10 @@
           "value": "black"
         }
       }
+    },
+    {
+      "transform": [{"filter": "datum.Practice == 'Strongly encourage organic'"}],
+      "mark": {"type": "rect", "fill": null, "stroke": "#1d211c", "strokeWidth": 2, "cornerRadius": 3}
     }
   ],
   "config": {

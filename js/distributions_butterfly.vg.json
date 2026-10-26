@@ -219,9 +219,8 @@
           "field": "Signed share",
           "type": "quantitative"
         },
-        "text": {
-          "value": "17 gardens had 100+ visitors a week in 2024, up from 2"
-        },
+        "text": 
+        {"value": ["17 gardens had 100+ visitors", "a week in 2024, up from 2"]},
         "color": {
           "value": "#4f554c"
         },
