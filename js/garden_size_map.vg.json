@@ -75,6 +75,24 @@
               {"field": "year_established", "type": "nominal", "title": "Established"}
             ]
           }
+        },
+        {
+          "transform": [
+            {"filter": "datum.garden == 'Kooragang City Farm' || datum.garden == 'Northey Street City Farm' || datum.garden == 'Echoesinthevalley'"},
+            {"calculate": "datum.garden + ' (' + format(datum.size_m2 / 10000, '.1~f') + ' ha)'", "as": "Label"}
+          ],
+          "mark": {
+            "type": "text",
+            "align": "left",
+            "baseline": "middle",
+            "dx": 14,
+            "fontSize": 11.5,
+            "fontStyle": "italic"
+          },
+          "encoding": {
+            "text": {"field": "Label", "type": "nominal"},
+            "color": {"value": "black"}
+          }
         }
       ]
     }

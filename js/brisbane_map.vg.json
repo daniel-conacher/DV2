@@ -113,7 +113,17 @@
           {"field": "kind", "type": "nominal", "title": "Type"}
         ]
       }
-    }
+    },
+    {
+  "data": {"values": [{"lon": 153.024, "lat": -27.515, "note": ["Yeronga is listed, but its directory", "point is plotted about 25 km north"]}]},
+  "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 12, "fontSize": 11.5, "fontStyle": "italic"},
+  "encoding": {
+    "longitude": {"field": "lon", "type": "quantitative"},
+    "latitude": {"field": "lat", "type": "quantitative"},
+    "text": {"field": "note"},
+    "color": {"value": "#4f554c"}
+  }
+}
   ],
   "config": {
     "font": "Open Sans",

@@ -2,7 +2,10 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "Out of every 100 gardeners surveyed in 2024...",
-    "subtitle": "Each square is one in 100 respondents who agreed. CGA survey 2024",
+    "subtitle": [
+      "Each square is one in 100 respondents who agreed. CGA survey 2024",
+      "Wellbeing has stayed above 80%: 90% in 2022, 83% in 2023, 85.6% in 2024"
+    ],
     "anchor": "start",
     "offset": 12
   },
