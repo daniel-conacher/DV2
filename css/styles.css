@@ -83,6 +83,21 @@ h1 {
     max-width: 62ch;
 }
 
+.num {
+    font-family: 'Fraunces', Georgia, serif;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    margin-right: 12px;
+    border-radius: 50%;
+    background-color: #2e6b34;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: 3px;
+}
+
 .stats {
     background-color: #f2f6ef;
     border-radius: 8px;

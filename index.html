@@ -63,145 +63,130 @@
 </div>
 
 
-    <!-- 1. Where they are -->
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <div class="description">
-          <h2>1. Where are the gardens?</h2>
-          <p>More than 600 gardens are listed in the national directory, concentrated along the east
-            coast and in capital cities.</p>
-        </div>
+<!-- 1. Dot map -->
+<div class="pure-g">
+    <div class="pure-u-1">
+        <h2><span class="num">1</span>Where are the gardens?</h2>
+        <p>More than 600 gardens are listed in the national directory, concentrated along the east coast and in capital cities.</p>
+    </div>
+    <div class="pure-u-1">
         <div id="garden_map" class="vis-container"></div>
-        </div>
-      </div>
-
-    <!-- 1b. Garden sizes -->
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <div class="description">
-          <h2>How big are they?</h2>
-          <p>Half of the gardens that reported a size are under 700 m². A handful of city farms cover several hectares.</p>
-        </div>
-        <div id="garden_size_map" class="vis-container"></div>
-      </div>
     </div>
+</div>
 
-    <!-- 1c. Gardens per resident -->
-    <div class="pure-g">
-      <div class="pure-u-1-2">
-        <div class="description description-left">
-          <h2>Where are gardens most common?</h2>
-          <p>Per resident, Tasmania lists the most gardens and Queensland the fewest.</p>
-        </div>
-      </div>
-      <div class="pure-u-1-2">
+<!-- 2. Tile map + choropleth -->
+<div class="pure-g">
+    <div class="pure-u-1-3 description-left">
+        <h2><span class="num">2</span>Where are gardens most common?</h2>
+        <p>Per resident, Tasmania lists the most gardens and Queensland the fewest.</p>
+    </div>
+    <div class="pure-u-2-3">
         <div id="state_tile_map" class="vis-container"></div>
-      </div>
     </div>
+</div>
 
-    <!-- 1d. Gardens per resident by council -->
-    <div class="pure-g">
-      <div class="pure-u-1-1">
+<div class="pure-g">
+    <div class="pure-u-1">
+        <p>Zooming into council areas shows the pattern inside each state. Inner-city
+        councils such as Port Phillip, Yarra and the City of Sydney have the most gardens
+        per resident among the big cities. Some remote councils look dark only because
+        one garden among a few thousand people produces a high rate.</p>
         <div id="lga_choropleth" class="vis-container"></div>
-      </div>
     </div>
-  
- 
-    <!-- 2. Getting busier -->
-    <div class="pure-g">
-      <div class="pure-u-1-3">
-        <div class="description description-left">
-          <h2>2. Gardens are getting busier</h2>
-          <p>In 2023 only 2 surveyed gardens had more than 100 visitors a week. In 2024, 17 did.</p>
-        </div>
-      </div>
-        <div class="pure-u-2-3">
-          <div id="distributions_chart" class="vis-container"></div>
-        </div>
-      </div>
-  
- 
-    <!-- 3. What gardeners get back -->
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <div class="description">
-          <h2>3. What gardeners get back</h2>
-          <p>Every year, more than 80% of respondents say their health and wellbeing improved after joining.</p>
-        </div>
+</div>
+
+<!-- 3. Size map -->
+<div class="pure-g">
+    <div class="pure-u-1">
+        <h2><span class="num">3</span>How big are they?</h2>
+        <p>Half of the gardens that reported a size are under 700 m². A handful of city farms cover several hectares.</p>
+    </div>
+    <div class="pure-u-1">
+        <div id="garden_size_map" class="vis-container"></div>
+    </div>
+</div>
+
+<!-- 4. Getting busier -->
+<div class="pure-g">
+    <div class="pure-u-1-3 description-left">
+        <h2><span class="num">4</span>Gardens are getting busier</h2>
+        <p>In 2023 only 2 surveyed gardens had more than 100 visitors a week. In 2024, 17 did.</p>
+    </div>
+    <div class="pure-u-2-3">
+        <div id="distributions_chart" class="vis-container"></div>
+    </div>
+</div>
+
+<!-- 5. Wellbeing -->
+<div class="pure-g">
+    <div class="pure-u-1">
+        <h2><span class="num">5</span>What gardeners get back</h2>
+        <p>Every year, more than 80% of respondents say their health and wellbeing improved after joining.</p>
+    </div>
+    <div class="pure-u-1">
         <div id="wellbeing_chart" class="vis-container"></div>
-      </div>
     </div>
- 
-   <!-- 4. Neighbourhood connection -->
-    <div class="pure-g">
-      <div class="pure-u-1-3">
-        <div class="description description-left">
-          <h2>4. Feeding the neighbourhood</h2>
-          <p>A growing share of gardens give produce away to food banks, soup kitchens and charities. CGA's 2023
-            report links the rise to cost-of-living pressure.</p>
-        </div>
-      </div>
-      <div class="pure-u-2-3">
+</div>
+
+<!-- 6. Feeding the neighbourhood -->
+<div class="pure-g">
+    <div class="pure-u-1-3 description-left">
+        <h2><span class="num">6</span>Feeding the neighbourhood</h2>
+        <p>A growing share of gardens give produce away to food banks, soup kitchens and charities. CGA's 2023 report links the rise to cost-of-living pressure.</p>
+    </div>
+    <div class="pure-u-2-3">
         <div id="donations_chart" class="vis-container"></div>
-      </div>
     </div>
-    <div class="pure-g">
-      <div class="pure-u-1-1">
+</div>
+
+<div class="pure-g">
+    <div class="pure-u-1">
         <div id="activities_chart" class="vis-container"></div>
-      </div>
     </div>
- 
-    <!-- 5. Sustainability -->
-    <div class="pure-g">
-      <div class="pure-u-2-3">
+</div>
+
+<!-- 7. Sustainability -->
+<div class="pure-g">
+    <div class="pure-u-1-3 description-left">
+        <h2><span class="num">7</span>Low-impact by design</h2>
+        <p>Nine in ten gardens mulch their beds every year. The one real shift is fewer gardens strongly encouraging organic growing.</p>
+    </div>
+    <div class="pure-u-2-3">
         <div id="practices_chart" class="vis-container"></div>
-      </div>
-      <div class="pure-u-1-3">
-        <div class="description description-right">
-          <h2>5. Low-impact by design</h2>
-          <p>Nine in ten gardens mulch their beds every year. The one real shift is fewer gardens
-            strongly encouraging organic growing.</p>
-        </div>
-      </div>
     </div>
- 
-    <!-- 6. Funding -->
-    <div class="pure-g">
-      <div class="pure-u-1-3">
-        <div class="description description-left">
-          <h2>6. Running on goodwill</h2>
-          <p>More gardens fund themselves through plot fees and sausage sizzles, while funding for paid
-            staff has almost disappeared.</p>
-        </div>
-      </div>
-      <div class="pure-u-2-3">
+</div>
+
+<!-- 8. Funding -->
+<div class="pure-g">
+    <div class="pure-u-1-3 description-left">
+        <h2><span class="num">8</span>Running on goodwill</h2>
+        <p>More gardens fund themselves through plot fees and sausage sizzles, while funding for paid staff has almost disappeared.</p>
+    </div>
+    <div class="pure-u-2-3">
         <div id="funding_chart" class="vis-container"></div>
-        </div>
-      </div>
-    
- 
-       <!-- 7. Caveats -->
-    <div class="pure-g">
-      <div class="pure-u-1-1">
-        <div class="description">
-          <h2>7. Reading the data carefully</h2>
-          <p>The surveys are self-selected, the mix of states changes each year, and the national
-            directory misses many gardens.</p>
-        </div>
-        <div id="brisbane_map" class="vis-container"></div>
-      </div>
     </div>
- 
-    <!-- Sources -->
-    <div class="pure-g">
-      <div class="pure-u-1-1 small-font">
+</div>
+
+<!-- 9. Caveats -->
+<div class="pure-g">
+    <div class="pure-u-1">
+        <h2><span class="num">9</span>Reading the data carefully</h2>
+        <p>The surveys are self-selected, the mix of states changes each year, and the national directory misses many gardens.</p>
+    </div>
+    <div class="pure-u-1">
+        <div id="brisbane_map" class="vis-container"></div>
+    </div>
+</div>
+
+<!-- Sources -->
+<div class="pure-g">
+    <div class="pure-u-1 small-font">
         <h2>Sources</h2>
         <p>Community Gardens Australia, Community Garden Survey reports 2021–22, 2023 and 2024.<br>
-          Australian City Farms and Community Gardens Network (ACFCGN) directory, 2018, via AURIN. CC BY 3.0 AU.<br>
-          Brisbane City Council, Community gardens and city farms. CC BY 4.0.<br>
-          City of Port Phillip, Community Gardens. CC BY 2.5 AU.</p>
-      </div>
+        Australian City Farms and Community Gardens Network (ACFCGN) directory, 2018, via AURIN. CC BY 3.0 AU.<br>
+        Brisbane City Council, Community gardens and city farms. CC BY 4.0.</p>
     </div>
+</div>
  
   </div> <!-- end page -->
 
