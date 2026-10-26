@@ -166,4 +166,9 @@ h1 {
     line-height: 1.65;
     color: #3f453c;
     margin-bottom: 6px;
-}s
+}
+
+.description-left,
+.description-right {
+    box-sizing: border-box;
+}
