@@ -3,12 +3,12 @@ vegaEmbed("#donations_chart", vg_1).then(function(result) {
 }).catch(console.error);
 
 
-var vg_2 = "js/distributions.vg.json";
+var vg_2 = "js/distributions_butterfly.vg.json";
 vegaEmbed("#distributions_chart", vg_2, { "actions": false }).then(function(result) {
 }).catch(console.error);
  
 
-var vg_3 = "js/wellbeing.vg.json";
+var vg_3 = "js/wellbeing_waffle.vg.json";
 vegaEmbed("#wellbeing_chart", vg_3, { "actions": false }).then(function(result) {
 }).catch(console.error);
 
@@ -20,7 +20,7 @@ var vg_5 = "js/activities.vg.json";
 vegaEmbed("#activities_chart", vg_5, { "actions": false }).then(function(result) {
 }).catch(console.error);
  
-var vg_6 = "js/practices.vg.json";
+var vg_6 = "js/practices_heatmap.vg.json";
 vegaEmbed("#practices_chart", vg_6, { "actions": false }).then(function(result) {
 }).catch(console.error);
  

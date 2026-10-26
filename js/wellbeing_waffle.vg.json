@@ -1,0 +1,137 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Out of every 100 gardeners surveyed in 2024...",
+    "subtitle": "Each square is one in 100 respondents who agreed. CGA survey 2024",
+    "anchor": "start",
+    "offset": 12
+  },
+  "data": {
+    "url": "data/cga_survey_change_2021_2024.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.theme == 'Wellbeing' && datum.year == 2024"
+    },
+    {
+      "calculate": "datum.metric == 'Health and wellbeing improved' ? 1 : datum.metric == 'Skills to grow food at home improved' ? 2 : 3",
+      "as": "order"
+    },
+    {
+      "calculate": "format(datum.value, '.3~') + '%|' + (datum.metric == 'Health and wellbeing improved' ? 'say their health and wellbeing improved' : datum.metric == 'Skills to grow food at home improved' ? 'got better at growing food at home' : 'spend less on food each week')",
+      "as": "Panel"
+    },
+    {
+      "calculate": "sequence(1, 101)",
+      "as": "cell"
+    },
+    {
+      "flatten": [
+        "cell"
+      ]
+    },
+    {
+      "calculate": "(datum.cell - 1) % 10",
+      "as": "col"
+    },
+    {
+      "calculate": "floor((datum.cell - 1) / 10)",
+      "as": "row"
+    },
+    {
+      "calculate": "datum.cell <= round(datum.value) ? 'Agreed' : 'Did not agree'",
+      "as": "Response"
+    }
+  ],
+  "facet": {
+    "column": {
+      "field": "Panel",
+      "type": "nominal",
+      "sort": {
+        "field": "order",
+        "op": "min"
+      },
+      "title": null,
+      "header": {
+        "labelExpr": "split(datum.value, '|')",
+        "labelFontSize": 14,
+        "labelLineHeight": 18,
+        "labelLimit": 0,
+        "labelPadding": 10,
+        "labelAlign": "left",
+        "labelAnchor": "start",
+        "labelFontWeight": "bold"
+      }
+    }
+  },
+  "spacing": 36,
+  "spec": {
+    "width": 220,
+    "height": 220,
+    "mark": {
+      "type": "rect",
+      "cornerRadius": 2
+    },
+    "encoding": {
+      "x": {
+        "field": "col",
+        "type": "ordinal",
+        "axis": null,
+        "scale": {
+          "paddingInner": 0.15
+        }
+      },
+      "y": {
+        "field": "row",
+        "type": "ordinal",
+        "axis": null,
+        "sort": "descending",
+        "scale": {
+          "paddingInner": 0.15
+        }
+      },
+      "color": {
+        "field": "Response",
+        "type": "nominal",
+        "title": null,
+        "scale": {
+          "domain": [
+            "Agreed",
+            "Did not agree"
+          ],
+          "range": [
+            "#2e6b34",
+            "#e9e8e2"
+          ]
+        },
+        "legend": {
+          "orient": "bottom",
+          "direction": "horizontal"
+        }
+      },
+      "tooltip": [
+        {
+          "field": "metric",
+          "type": "nominal",
+          "title": "Statement"
+        },
+        {
+          "field": "value",
+          "type": "quantitative",
+          "title": "Respondents agreeing (%)"
+        },
+        {
+          "field": "source",
+          "type": "nominal",
+          "title": "Source"
+        }
+      ]
+    }
+  },
+  "config": {
+    "font": "Open Sans",
+    "view": {
+      "stroke": null
+    }
+  }
+}
