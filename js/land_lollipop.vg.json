@@ -1,0 +1,70 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "More than half of gardens sit on council land",
+    "subtitle": ["Land the responding gardens are on, CGA survey 2024", "Council land was 50% in 2021–22"],
+    "anchor": "start"
+  },
+  "width": "container",
+  "height": 250,
+  "autosize": {"type": "fit", "contains": "padding"},
+  "data": {"url": "data/cga_survey_2024.csv"},
+  "transform": [
+    {"filter": "datum.question == 'Land tenure'"},
+    {"calculate": "datum.percent_reported / 100", "as": "Share of gardens"},
+    {"calculate": "datum.category == 'Other' ? -1 : datum.percent_reported", "as": "Sort order"},
+    {"calculate": "datum.category == 'Council land' ? 'Council land' : 'Other tenure'", "as": "Highlight"}
+  ],
+  "encoding": {
+    "y": {
+      "field": "category",
+      "type": "nominal",
+      "sort": {"field": "Sort order", "op": "max", "order": "descending"},
+      "title": null,
+      "axis": {"labelFontSize": 12, "domain": false, "ticks": false, "labelPadding": 8}
+    },
+    "x": {
+      "field": "Share of gardens",
+      "type": "quantitative",
+      "title": "Share of responding gardens",
+      "scale": {"domain": [0, 0.6]},
+      "axis": {"format": "%", "tickCount": 4}
+    }
+  },
+  "layer": [
+    {
+      "mark": {"type": "rule", "strokeWidth": 2},
+      "encoding": {
+        "x2": {"datum": 0},
+        "color": {
+          "field": "Highlight",
+          "type": "nominal",
+          "scale": {"domain": ["Council land", "Other tenure"], "range": ["#2e6b34", "#9cc192"]},
+          "legend": null
+        }
+      }
+    },
+    {
+      "mark": {"type": "circle", "size": 130, "opacity": 1},
+      "encoding": {
+        "color": {"field": "Highlight", "type": "nominal", "legend": null},
+        "tooltip": [
+          {"field": "category", "type": "nominal", "title": "Land"},
+          {"field": "Share of gardens", "type": "quantitative", "format": ".1%"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "baseline": "middle", "dx": 11, "fontSize": 12, "fontWeight": "bold"},
+      "encoding": {
+        "text": {"field": "Share of gardens", "type": "quantitative", "format": ".0%"},
+        "color": {"value": "black"}
+      }
+    }
+  ],
+  "config": {
+    "font": "Open Sans",
+    "view": {"stroke": null},
+    "axisY": {"grid": false}
+  }
+}

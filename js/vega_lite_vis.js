@@ -45,3 +45,7 @@ vegaEmbed("#state_tile_map", vg_10, { "actions": false }).then(function(result) 
 var vg_11 = "js/lga_choropleth.vg.json";
 vegaEmbed("#lga_choropleth", vg_11, { "actions": false }).then(function(result) {
 }).catch(console.error);
+
+var vg_12 = "js/land_lollipop.vg.json";
+vegaEmbed("#land_chart", vg_12, { "actions": false }).then(function(result) {
+}).catch(console.error);
