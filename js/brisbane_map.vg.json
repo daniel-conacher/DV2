@@ -97,7 +97,7 @@
           "title": null,
           "scale": {
             "domain": ["Listed in national directory", "Not listed"],
-            "range": ["#2e6b34", "#eb6834"]
+            "range": ["#2e6b34", "#6250d6"]
           },
           "legend": {"orient": "top-left", "fillColor": "white", "padding": 6}
         },

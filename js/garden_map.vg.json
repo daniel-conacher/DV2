@@ -58,7 +58,7 @@
           "title": "Garden type",
           "scale": {
             "domain": ["Community garden", "School garden", "City farm, verge or other"],
-            "range": ["#2e6b34", "#eb6834", "#2a78d6"]
+            "range": ["#2e6b34", "#6250d6", "#2a78d6"]
           },
           "legend": {"orient": "top-left"}
         },

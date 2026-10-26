@@ -58,7 +58,7 @@
           "title": null,
           "scale": {
             "domain": ["Where funding comes from", "What is still missing"],
-            "range": ["#2e6b34", "#eb6834"]
+            "range": ["#2e6b34", "#6250d6"]
           },
           "legend": {"orient": "top", "direction": "horizontal"}
         },
