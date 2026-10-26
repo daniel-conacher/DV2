@@ -1,10 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Gardens increasingly fund themselves",
-    "subtitle": "Share of responding gardens. Bars show the 2024 survey, black ticks show 2021–22"
-  },
+  "text": "Gardens increasingly fund themselves",
+  "subtitle": ["Share of responding gardens.", "Bars show 2024, black ticks show 2021–22"],
+  "anchor": "start"
+},
   "width": "container",
+  "autosize": {"type": "fit", "contains": "padding"},
   "height": 260,
   "data": {
     "url": "data/cga_survey_change_2021_2024.csv"
@@ -60,7 +62,7 @@
             "domain": ["Where funding comes from", "What is still missing"],
             "range": ["#2e6b34", "#6250d6"]
           },
-          "legend": {"orient": "top", "direction": "horizontal"}
+          "legend": {"orient": "bottom", "direction": "horizontal"}
         },
         "tooltip": [
           {"field": "Item", "type": "nominal"},

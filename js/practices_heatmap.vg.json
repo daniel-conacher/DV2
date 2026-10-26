@@ -1,10 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "Low-impact growing is the norm, but fewer gardens push organic-only",
-    "subtitle": "Share of responding gardens using each practice. CGA surveys 2021–22, 2023 and 2024"
-  },
+  "text": ["Low-impact growing is the norm,", "but fewer gardens push organic"],
+  "subtitle": "Share of responding gardens. CGA surveys 2021–22, 2023, 2024",
+  "anchor": "start"
+},
   "width": "container",
+  "autosize": {"type": "fit", "contains": "padding"},
   "height": 260,
   "data": {
     "url": "data/cga_survey_change_2021_2024.csv"
