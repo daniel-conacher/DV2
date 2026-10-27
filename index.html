@@ -210,19 +210,74 @@
     </div>
 </div>
 
-<!-- Sources -->
+<!-- About -->
+<div class="pure-g about">
+    <div class="pure-u-1-2 description-left">
+        <h2>About this page</h2>
+        <h3>What</h3>
+        <p>Where Australia's community gardens are, how big they are, how many people use them, and what they give back to members and neighbours.</p>
+        <h3>Who</h3>
+        <p>Written for the average Australian with no background in data. It needs no prior knowledge of gardening or statistics.</p>
+        <h3>Why</h3>
+        <p>To show that community gardens do more than grow food: they support wellbeing, feed neighbours, and depend on council land and volunteers.</p>
+    </div>
+    <div class="pure-u-1-2 description-right">
+        <h3>How</h3>
+        <p>The 2018 national directory is joined to 2025 ABS population figures by council area and state to give rates per 100,000 residents. Survey results from 2021–22 to 2024 show change over time. Green is the main colour throughout, darker meaning more. Blue and purple are used only for categories that need to stand apart.</p>
+        <h3>Method</h3>
+        <p>Survey figures were transcribed from the CGA PDF reports into CSV files and checked against the original pages. Directory gardens were matched to 2025 council areas and states by location, then divided by ABS population to give rates per 100,000 residents. Contact names and phone numbers in the directory were removed before publishing. Boundaries were simplified with mapshaper to keep files small.</p>
+    </div>
+</div>
+
+<div class="pure-g">
+    <div class="pure-u-1">
+        <h3>Marks and channels</h3>
+        <table class="pure-table pure-table-horizontal idioms">
+            <thead>
+                <tr><th>#</th><th>Idiom</th><th>Marks</th><th>Channels</th><th>Interaction</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Dot map</td><td>Points</td><td>Position (longitude, latitude), colour hue (garden type)</td><td>Zoom to state, tooltip</td></tr>
+                <tr><td>2</td><td>Tile grid map</td><td>Squares</td><td>Grid position (state), colour lightness (gardens per 100,000)</td><td>Switch count, tooltip</td></tr>
+                <tr><td>3</td><td>Choropleth map</td><td>Areas (council boundaries)</td><td>Colour lightness (gardens per 100,000, in classes)</td><td>Zoom to city, tooltip</td></tr>
+                <tr><td>4</td><td>Proportional symbol map</td><td>Circles</td><td>Position, size (garden area)</td><td>Zoom to state, tooltip</td></tr>
+                <tr><td>5</td><td>Butterfly (diverging bar) chart</td><td>Bars</td><td>Length (share), vertical position (band), direction and colour (year)</td><td>Switch measure, tooltip</td></tr>
+                <tr><td>6</td><td>Waffle chart</td><td>Squares</td><td>Count of filled squares, colour (agreed / did not agree)</td><td>Tooltip</td></tr>
+                <tr><td>7</td><td>Line chart</td><td>Line and points</td><td>Horizontal position (year), vertical position (share)</td><td>Tooltip</td></tr>
+                <tr><td>8</td><td>Dumbbell plot</td><td>Points and lines</td><td>Horizontal position (share), colour lightness (year)</td><td>Tooltip</td></tr>
+                <tr><td>9</td><td>Heatmap</td><td>Rectangles</td><td>Position (practice, year), colour lightness (share)</td><td>Tooltip</td></tr>
+                <tr><td>10</td><td>Bar chart with reference ticks</td><td>Bars and ticks</td><td>Length (2024 share), tick position (2021–22 share), colour hue (group)</td><td>Tooltip</td></tr>
+                <tr><td>11</td><td>Lollipop chart</td><td>Lines and points</td><td>Length (share), colour lightness (council land highlighted)</td><td>Tooltip</td></tr>
+                <tr><td>12</td><td>Dot map (Brisbane)</td><td>Points</td><td>Position, colour hue (listed or not)</td><td>Click legend to highlight, tooltip</td></tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
 <div class="pure-g">
     <div class="pure-u-1 small-font">
+        <h3>Generative AI acknowledgement</h3>
+        <p>Claude (Anthropic) was used to help prepare and check the data files, write and debug the Vega-Lite specifications, and draft and edit the page wording and layout. The story, the choice of charts and every judgement about what to show are mine, and all figures were checked against the source data.</p>
+    </div>
+</div>
+
+<!-- Sources -->
+<div class="pure-g">
+    <div class="pure-u-1 small-font sources">
         <h2>Sources</h2>
-        <p>Community Gardens Australia, Community Garden Survey reports 2021–22, 2023 and 2024.<br>
-        Australian City Farms and Community Gardens Network (ACFCGN) directory, 2018, via AURIN. CC BY 3.0 AU.<br>
-        Brisbane City Council, Community gardens and city farms. CC BY 4.0.</p>
+        <ul>
+            <li>Community Gardens Australia (CGA), Community Garden Survey reports 2021–22, 2023 and 2024. <a href="https://communitygarden.org.au">communitygarden.org.au</a></li>
+            <li>Australian City Farms &amp; Community Gardens Network (ACFCGN) directory, 2018, via AURIN. CC BY 3.0 AU. Contact details removed before publishing. <a href="https://data.aurin.org.au">data.aurin.org.au</a></li>
+            <li>Australian Bureau of Statistics (ABS), Regional population 2024–25, released 31 March 2026. CC BY 4.0. <a href="https://www.abs.gov.au/statistics/people/population/regional-population/latest-release">abs.gov.au</a></li>
+            <li>ABS, Australian Statistical Geography Standard (ASGS) Edition 3, Local Government Areas 2025 boundaries. CC BY 4.0. <a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads">abs.gov.au</a></li>
+            <li>Brisbane City Council, Community gardens and city farms. CC BY 4.0. <a href="https://data.brisbane.qld.gov.au">data.brisbane.qld.gov.au</a></li>
+            <li>Natural Earth, Admin 1 states and provinces. Public domain. <a href="https://www.naturalearthdata.com">naturalearthdata.com</a></li>
+        </ul>
+        <p>Daniel Conacher - 33867739 - FIT3179 Semester 2 2026 - Data Visulisation 2 - Built with Vega-Lite 5, Pure.css, Fraunces and Open Sans. Created by Daniel Conacher, 26 October 2026.</p>
     </div>
 </div>
  
   </div> <!-- end page -->
-
-
 
 
   <script src="js/vega_lite_vis.js"></script>

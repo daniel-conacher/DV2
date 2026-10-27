@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "More than half of gardens sit on council land",
-    "subtitle": ["Land the responding gardens are on, CGA survey 2024", "Council land was 50% in 2021–22"],
+    "subtitle": ["Land the responding gardens are on, CGA survey 2024", "Council land was 50% in 2021-22"],
     "anchor": "start"
   },
   "width": "container",
