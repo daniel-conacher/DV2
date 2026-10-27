@@ -172,3 +172,34 @@ h1 {
 .description-right {
     box-sizing: border-box;
 }
+
+.about {
+    border-top: 1px solid #d9dcd3;
+    padding-top: 40px;
+}
+
+h3 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 19px;
+    color: #2e6b34;
+    margin: 18px 0 6px;
+}
+
+.idioms {
+    width: 100%;
+    font-size: 14px;
+}
+
+.idioms td, .idioms th {
+    padding: 8px 10px;
+    vertical-align: top;
+}
+
+.sources ul {
+    padding-left: 20px;
+}
+
+.small-font p, .small-font li {
+    font-size: 14px;
+    line-height: 1.55;
+}
